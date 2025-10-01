@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+Royal Carpet (#)
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="JFRoyalCarpets_A"]/label</xpath>
+                    <value>
+                        <label>royal carpet (type a)</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="JFRoyalCarpets_B"]/label</xpath>
+                    <value>
+                        <label>royal carpet (type b)</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="JFRoyalCarpets_C"]/label</xpath>
+                    <value>
+                        <label>royal carpet (type c)</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="JFRoyalCarpets_D"]/label</xpath>
+                    <value>
+                        <label>royal carpet (type d)</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="JFRoyalCarpets_E"]/label</xpath>
+                    <value>
+                        <label>royal carpet (type e)</label>
+                    </value>
+                </Operation>
+
+</Patch>

@@ -1,0 +1,15 @@
+<loadFolders>
+  <v1.6>
+<!-- MODS -->
+    <li IfModActive="mf.ahm">Mods and Shit/Advance Incubator</li>
+    <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
+    <li IfModActive="bart.bioformmatrix">Mods and Shit/Bioform Matrix</li>
+    <li IfModActive="krkr.rule56">Mods and Shit/CAI</li>
+    <li IfModActive="esvn.pauseothersettlementssimulation">Mods and Shit/Pause Other Settlements Simulation</li>
+    <li IfModActive="chaoticenrico.researchpapers">Mods and Shit/Research Papers</li>
+    <li IfModActive="tug.satyrfaun.expanded">Mods and Shit/Roo FSE</li>
+    <li IfModActive="tug.minotaur">Mods and Shit/Roo Minotaurs</li>
+    <li IfModActive="jf.royalcarpets">Mods and Shit/Royal Carpets</li>
+    <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
+  </v1.6>
+</loadFolders>

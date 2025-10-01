@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+bench
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Seat_Bench"]/label</xpath>
+                    <value>
+                        <label>modular bench</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Table_Counter"]/label</xpath>
+                    <value>
+                        <label>modular counter</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFE_LongPlantPot"]/label</xpath>
+                    <value>
+                    <label>modular plant decoration</label>
+                    </value>
+                </Operation>
+
+
+</Patch>

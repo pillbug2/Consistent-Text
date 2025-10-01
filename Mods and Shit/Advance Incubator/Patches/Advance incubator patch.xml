@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+Advance Incubator
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MF_Building_AdvanceEggHatcher"]/label</xpath>
+                    <value>
+                        <label>incubator</label>
+                    </value>
+                </Operation>
+
+
+<!-- ORIGINAL
+A sophisticated incubator designed for precision hatching.
+
+Significantly accelerates the hatching process of fertilized eggs.
+
+Protects delicate embryos from extreme heat or cold.
+
+Can only hold a single stack of fertilized eggs at a time.
+
+Perfect for colonists who want reliable, climate-proof hatching without relying on natural.
+ -->
+
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="MF_Building_AdvanceEggHatcher"]/description</xpath>
+                    <value>
+                        <description>An electric incubator that significantly accelerates the hatching process of fertilized eggs, while protecting delicate embryos from extreme heat or cold.
+
+Can only hold a single stack of fertilized eggs at a time.</description>
+                    </value>
+                </Operation>
+</Patch>
