@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="TableRimatomicsMachining"]</xpath>
+		<value>
+			<label>nuclear machining table</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="NuclearResearchBench"]</xpath>
+		<value>
+			<label>nuclear research bench</label>
+		</value>
+	</Operation>
+	
+</Patch>

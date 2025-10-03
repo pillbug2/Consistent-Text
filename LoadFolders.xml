@@ -12,5 +12,6 @@
     <li IfModActive="jf.royalcarpets">Mods and Shit/Royal Carpets</li>
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
 	<li IfModActive="als.gravtech">Mods and Shit/GravTech</li>
+	<li IfModActive="dubwise.rimatomics">Mods and Shit/Dubs Rimatomics</li>
   </v1.6>
 </loadFolders>

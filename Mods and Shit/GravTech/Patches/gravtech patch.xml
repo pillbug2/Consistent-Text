@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/label</xpath>
 		<value>
-			<label>Singularity reactor</label>
+			<label>singularity reactor</label>
 		</value>
 	</Operation>
 	
