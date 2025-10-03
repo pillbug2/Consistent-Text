@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+
+	<!-- Nutrient Solution PipeSystem -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/DesignationCategoryDef[defName="NutrientSolutionPipeSystem"]/label</xpath>
+		<value>
+			<label>Hydroponics</label>
+		</value>
+	</Operation>
+
+	<!-- underground Nutrient pipe -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMo_NutrientPipeUnderground"]/label</xpath>
+		<value>
+			<label>underground nutrient pipe</label>
+		</value>
+	</Operation>
+
+	<!-- SurvivalNutrientPack Crate -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SurvivalNutrientPackCrateA"]/label</xpath>
+		<value>
+			<label>nutrient paste survival pack crate</label>
+		</value>
+	</Operation>
+
+	<!-- SurvivalNutrientPack Crate -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SurvivalNutrientPackCrateB"]/label</xpath>
+		<value>
+			<label>nutrient paste survival pack crate</label>
+		</value>
+	</Operation>
+
+	<!-- Nutrient solution Crate -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="NutrientSolutionCrate"]/label</xpath>
+		<value>
+			<label>nutrient solution crate</label>
+		</value>
+	</Operation>
+
+	<!-- Cloths Crate -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="ClothCrate"]/label</xpath>
+		<value>
+			<label>cloth crate</label>
+		</value>
+	</Operation>
+
+	<!-- Devilstrand Crate -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DevilstrandCrate"]/label</xpath>
+		<value>
+			<label>devilstrand crate</label>
+		</value>
+	</Operation>
+
+	<!-- Survival nutrient pastes pack -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SurvivalNutrientPack"]/label</xpath>
+		<value>
+			<label>nutrient paste suvival pack</label>
+		</value>
+	</Operation>
+
+	<!-- Damaged Ancient hydroponics -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DamagedHydro"]/label</xpath>
+		<value>
+			<label>damaged ancient hydroponics</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Dual HydroponicsBasin -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AncientDualHydroponicsBasin"]/label</xpath>
+		<value>
+			<label>ancient dual hydroponics basin</label>
+		</value>
+	</Operation>
+
+	<!-- Damaged Sun lamp -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DamagedSunlamp"]/label</xpath>
+		<value>
+			<label>damaged sun lamp</label>
+		</value>
+	</Operation>
+	
+</Patch>

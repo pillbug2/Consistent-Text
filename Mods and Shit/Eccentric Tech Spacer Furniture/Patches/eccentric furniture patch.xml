@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- autofabricator (basic) -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="EccentricFurniture_AutofabricatorBasic"]/label</xpath>
+		<value>
+			<label>autofabricator</label>
+		</value>
+	</Operation>
+
+	<!-- autofabricator (advanced) -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="EccentricFurniture_AutofabricatorAdvanced"]/label</xpath>
+		<value>
+			<label>advanced autofabricator</label>
+		</value>
+	</Operation>
+
+	<!-- refrigerator (single) -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="EccentricFurniture_Refrigerator"]/label</xpath>
+		<value>
+			<label>refrigerator</label>
+		</value>
+	</Operation>
+
+	<!-- wall refrigerator (single) -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="EccentricFurniture_WallRefrigerator"]/label</xpath>
+		<value>
+			<label>wall refrigerator</label>
+		</value>
+	</Operation>
+	
+</Patch>

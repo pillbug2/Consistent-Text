@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	
+	<!-- The Singularity Reactor -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/label</xpath>
 		<value>

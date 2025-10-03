@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+	<!-- bondageBed -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="SR_Building_BondageBed"]/label</xpath>
+        <value>
+            <label>prisoner bed</label>
+        </value>
+    </Operation>
+
+	<!-- advanced bondageBed -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SR_Building_AdvancedBondageBed"]/label</xpath>
+		<value>
+			<label>masochist bed</label>
+		</value>
+	</Operation>
+
+	<!-- poor mattress -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SR_Building_Mattress"]/label</xpath>
+		<value>
+			<label>cot</label>
+		</value>
+	</Operation>
+
+	<!-- double nice bed -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SR_DoubleNiceBed"]/label</xpath>
+		<value>
+			<label>nice double bed</label>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>   
+	
+	<!-- Geyser Core -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MThingsGeysersCore"]/label</xpath>
+        <value>
+            <label>geyser core</label>
+        </value>
+    </Operation>
+
+	<!-- Magicyte Harvester -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/DesignationCategoryDef[defName="MThingsGeysersMagicyteHarvester"]</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MThingsGeysersMagicyteHarvester"]/label</xpath>
+			<value>
+				<label>magicyte harvester</label>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

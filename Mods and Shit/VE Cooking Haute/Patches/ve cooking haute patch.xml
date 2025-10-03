@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- electric haute section -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VCE_ElectricHauteSection"]/label</xpath>
+		<value>
+			<label>haute cooking station</label>
+		</value>
+	</Operation>
+	
+</Patch>

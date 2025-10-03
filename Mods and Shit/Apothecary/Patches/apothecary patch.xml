@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Apothecary Table -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYApothecaryTable"]/label</xpath>
+		<value>
+			<label>apothecary table</label>
+		</value>
+	</Operation>
+
+	<!-- Charcoal Brazier -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYBrazier"]/label</xpath>
+		<value>
+			<label>charcoal brazier</label>
+		</value>
+	</Operation>
+
+	<!-- Passive cooler (Ammonia) -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYPassiveCooler"]/label</xpath>
+		<value>
+			<label>ammonia cooler</label>
+		</value>
+	</Operation>
+
+	<!-- Large Casting Table -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYLargeCastArtTable"]/label</xpath>
+		<value>
+			<label>large casting table</label>
+		</value>
+	</Operation>
+
+	<!-- Casting Table -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYCastArtTable"]/label</xpath>
+		<value>
+			<label>casting table</label>
+		</value>
+	</Operation>
+
+	<!-- Charcoal Kiln -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYCharcoalKiln"]/label</xpath>
+		<value>
+			<label>charcoal kiln</label>
+		</value>
+	</Operation>
+
+	<!-- Potting Mix Composting barrel -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYCompostBarrel"]/label</xpath>
+		<value>
+			<label>composting barrel</label>
+		</value>
+	</Operation>
+
+	<!-- Herb Box -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYHerbBox"]/label</xpath>
+		<value>
+			<label>planting box</label>
+		</value>
+	</Operation>
+
+	<!-- Herb Box (Limed) -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYHerbBoxLime"]/label</xpath>
+		<value>
+			<label>limed planting box</label>
+		</value>
+	</Operation>
+
+	<!-- Potash barrel -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYPotashBarrel"]/label</xpath>
+		<value>
+			<label>potash leeching barrel</label>
+		</value>
+	</Operation>
+
+	<!-- Preserving barrel -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYPreserveBarrel"]/label</xpath>
+		<value>
+			<label>preservation barrel</label>
+		</value>
+	</Operation>
+
+	<!-- Clothes washing tub -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYApparelWashingTub"]/label</xpath>
+		<value>
+			<label>washboard</label>
+		</value>
+	</Operation>
+
+	<!-- Water Grower -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AYWaterGrower"]/label</xpath>
+		<value>
+			<label>water planting box</label>
+		</value>
+	</Operation>
+	
+</Patch>

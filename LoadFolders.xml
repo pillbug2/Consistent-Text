@@ -1,5 +1,6 @@
 <loadFolders>
   <v1.6>
+	    <li>/</li>
 <!-- MODS -->
     <li IfModActive="mf.ahm">Mods and Shit/Advance Incubator</li>
     <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
@@ -11,7 +12,31 @@
     <li IfModActive="tug.minotaur">Mods and Shit/Roo Minotaurs</li>
     <li IfModActive="jf.royalcarpets">Mods and Shit/Royal Carpets</li>
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
-	<li IfModActive="als.gravtech">Mods and Shit/GravTech</li>
-	<li IfModActive="dubwise.rimatomics">Mods and Shit/Dubs Rimatomics</li>
+        <li IfModActive="als.gravtech">Mods and Shit/GravTech</li>
+        <li IfModActive="dubwise.rimatomics">Mods and Shit/Dubs Rimatomics</li>
+        <li IfModActive="k.psitech">Mods and Shit/PsiTech</li>
+        <li IfModActive="aelanna.eccentrictech.furniture">Mods and Shit/Eccentric Tech Spacer Furniture</li>
+        <li IfModActive="vat.epoeforked">Mods and Shit/EPOE Forked</li>
+        <li IfModActive="sarg.alphacrafts">Mods and Shit/Alpha Crafts</li>
+        <li IfModActive="det.epochspottery">Mods and Shit/Epochs Pottery</li>
+        <li IfModActive="fox.simplelearning">Mods and Shit/Simple Learning</li>
+        <li IfModActive="vanillaexpanded.vcookehaute">Mods and Shit/VE Cooking Haute</li>
+        <li IfModActive="vanillaexpanded.vbookse">Mods and Shit/VE Books</li>
+        <li IfModActive="mlie.apothecary">Mods and Shit/Apothecary</li>
+        <li IfModActive="aoba.fortress.medieval.material">Mods and Shit/Fortifications Medieval Material</li>
+        <li IfModActive="untamo.apothecary.expansion">Mods and Shit/Apothecary Expansion</li>
+        <li IfModActive="propickelz.tinkerbench">Mods and Shit/Tinkering Bench and Biohacking Station</li>
+	    <li IfModActive="xmb.ancienthydroponicfarmfacilities.mo">Mods and Shit/Ancient Hydroponic Farm Facilities</li>
+	    <li IfModActive="xmb.ancientminingindustry.mo">Mods and Shit/Ancient Mining Industry</li>
+	    <li IfModActive="salvador143.mthings.geysers">Mods and Shit/Medieval Things Geysers</li>
+	    <li IfModActive="relvl.digitalstorageunit">Mods and Shit/Digital Storage Unit</li>
+	    <li IfModActive="side1iner.possessionsplus">Mods and Shit/Possessions Plus</li>
+	    <li IfModActive="resurrectionem.furnitureasia">Mods and Shit/RR Furniture Longyun</li>
+	    <li IfModActive="resurrectionem.furniture">Mods and Shit/RR Furniture Rapture</li>
+	    <li IfModActive="mlie.bondagebedtorture">Mods and Shit/BondageBed Torture</li>
+	    <li IfModActive="ucp.walldecorations">Mods and Shit/Wall Decorations</li>
+	    <li IfModActive="mrhydralisk.complementaryodyssey">Mods and Shit/Complementary Odyssey</li>
+	    <li IfModActive="sarg.alphaimplants">Mods and Shit/Alpha Implants</li>
+	    <li IfModActive="aelanna.eccentrictech.fusionpower">Mods and Shit/Eccentric Tech Fusion Power</li>
   </v1.6>
 </loadFolders>

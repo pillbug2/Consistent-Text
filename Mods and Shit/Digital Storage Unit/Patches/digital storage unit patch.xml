@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- DSU Input Bus -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DSU_InputBus_Building"]/label</xpath>
+		<value>
+			<label>DSU input bus</label>
+		</value>
+	</Operation>
+
+	<!-- Digital Storage Unit -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DSU_DigitalStorageUnit_Building"]/label</xpath>
+		<value>
+			<label>digital storage unit</label>
+		</value>
+	</Operation>
+
+	<!-- DSU Data Extender -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DSU_DataExtender"]/label</xpath>
+		<value>
+			<label>DSU data extender</label>
+		</value>
+	</Operation>
+
+	<!-- DSU Access Point -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DSU_AccessPoint_Building"]/label</xpath>
+		<value>
+			<label>DSU access point</label>
+		</value>
+	</Operation>
+
+	<!-- DSU Output Bus -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DSU_OutputBus_Building"]/label</xpath>
+		<value>
+			<label>DSU output bus</label>
+		</value>
+	</Operation>
+	
+</Patch>

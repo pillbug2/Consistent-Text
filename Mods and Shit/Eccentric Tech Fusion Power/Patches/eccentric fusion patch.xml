@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- MMFS (small) -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Eccentric_FusionGeneratorSmall"]/label</xpath>
+		<value>
+			<label>fusion stellarator (small)</label>
+		</value>
+	</Operation>
+
+	<!-- MMFS -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Eccentric_FusionGenerator"]/label</xpath>
+		<value>
+			<label>fusion stellarator</label>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- oil press workshop -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AC_OilPressWorkshop"]/label</xpath>
+		<value>
+			<label>oil press</label>
+		</value>
+	</Operation>
+
+	<!-- artisan workshop -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AC_ArtisanWorkshop"]/label</xpath>
+		<value>
+			<label>artisan workbench</label>
+		</value>
+	</Operation>
+
+	<!-- dairy processing station -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AC_ArtisanWorkshop"]/label</xpath>
+		<value>
+			<label>dairy processor</label>
+		</value>
+	</Operation>
+
+	<!-- artisan fermenter -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/label</xpath>
+		<value>
+			<label>fermentation reactor</label>
+		</value>
+	</Operation>
+
+	<!-- artisanal grinder -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/label</xpath>
+		<value>
+			<label>food processor</label>
+		</value>
+	</Operation>
+	
+</Patch>

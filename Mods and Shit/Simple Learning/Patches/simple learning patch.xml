@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Neolithic Desk -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Neo_Learning_Desk"]/label</xpath>
+		<value>
+			<label>student tablet</label>
+		</value>
+	</Operation>
+
+	<!-- Regular Desk -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mid_Learning_Desk"]/label</xpath>
+		<value>
+			<label>student desk</label>
+		</value>
+	</Operation>
+
+	<!-- Advanced Desk -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Adv_Learning_Desk"]/label</xpath>
+		<value>
+			<label>computer desk</label>
+		</value>
+	</Operation>
+
+	<!-- Spacer Desk -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Spacer_Learning_Desk"]/label</xpath>
+		<value>
+			<label>interactive desk</label>
+		</value>
+	</Operation>
+
+	<!-- Neolithic Stone -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Neo_Board"]/label</xpath>
+		<value>
+			<label>learning stone</label>
+		</value>
+	</Operation>
+
+	<!-- Chalk Board -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Board"]/label</xpath>
+		<value>
+			<label>chalkboard</label>
+		</value>
+	</Operation>
+
+	<!-- Spacer Board -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Spacer_Board"]/label</xpath>
+		<value>
+			<label>interactive board</label>
+		</value>
+	</Operation>
+
+	<!-- Spacer Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Spacer_Joy_Bookshelf"]/label</xpath>
+		<value>
+			<label>interactive bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Joy Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Joy_Bookshelf"]/label</xpath>
+		<value>
+			<label>joy bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Shooting Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Shooting_Bookshelf"]/label</xpath>
+		<value>
+			<label>shooting bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Melee Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Melee_Bookshelf"]/label</xpath>
+		<value>
+			<label>melee bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Construction Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Construct_Bookshelf"]/label</xpath>
+		<value>
+			<label>construction bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Mining Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mining_Bookshelf"]/label</xpath>
+		<value>
+			<label>mining bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Cooking Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Cooking_Bookshelf"]/label</xpath>
+		<value>
+			<label>cooking bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Plants Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plants_Bookshelf"]/label</xpath>
+		<value>
+			<label>plants bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Animals Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Animals_Bookshelf"]/label</xpath>
+		<value>
+			<label>animals bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Crafting Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Crafting_Bookshelf"]/label</xpath>
+		<value>
+			<label>crafting bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Art Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Art_Bookshelf"]/label</xpath>
+		<value>
+			<label>art bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Medicine Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Medicine_Bookshelf"]/label</xpath>
+		<value>
+			<label>medicine bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Social Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Social_Bookshelf"]/label</xpath>
+		<value>
+			<label>social bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Intellectual Bookshelf -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Intellectual_Bookshelf"]/label</xpath>
+		<value>
+			<label>intellectual bookshelf</label>
+		</value>
+	</Operation>
+
+	<!-- Library table -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Library_Table"]/label</xpath>
+		<value>
+			<label>reading table</label>
+		</value>
+	</Operation>
+
+	<!-- Author Desk -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AuthorDesk"]/label</xpath>
+		<value>
+			<label>writing desk</label>
+		</value>
+	</Operation>
+
+	<!-- Printing Press -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Printing_Press"]/label</xpath>
+		<value>
+			<label>printing press</label>
+		</value>
+	</Operation>
+
+	<!-- Lockers -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Fox_Lockers"]/label</xpath>
+		<value>
+			<label>student lockers</label>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+	<!-- Wall toiletpaper -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="ucp_toiletpaper"]/label</xpath>
+        <value>
+            <label>toilet paper</label>
+        </value>
+    </Operation>
+
+	<!-- Wall mirror (light) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_mirrorlight"]/label</xpath>
+		<value>
+			<label>wall mirror (lit)</label>
+		</value>
+	</Operation>
+
+	<!-- Ivy Leaves -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleaves"]/label</xpath>
+		<value>
+			<label>Ivy leaves</label>
+		</value>
+	</Operation>
+
+	<!-- Ivy Leaves (corner) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavescorner"]/label</xpath>
+		<value>
+			<label>Ivy leaves (corner)</label>
+		</value>
+	</Operation>
+
+	<!-- Ivy Leaves (inner) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavesinner"]/label</xpath>
+		<value>
+			<label>Ivy leaves (inner)</label>
+		</value>
+	</Operation>
+
+	<!-- Ivy Leaves (Pattern A) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternA"]/label</xpath>
+		<value>
+			<label>Ivy leaves (pattern A)</label>
+		</value>
+	</Operation>
+
+	<!-- Ivy Leaves (Pattern B) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternB"]/label</xpath>
+		<value>
+			<label>Ivy leaves (pattern B)</label>
+		</value>
+	</Operation>
+
+	<!-- Ivy Leaves (Pattern C) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternC"]/label</xpath>
+		<value>
+			<label>Ivy leaves (pattern C)</label>
+		</value>
+	</Operation>
+
+	<!-- Ivy Leaves (Pattern D) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternD"]/label</xpath>
+		<value>
+			<label>Ivy leaves (pattern D)</label>
+		</value>
+	</Operation>
+
+	<!-- Corkboard -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_corkboard"]/label</xpath>
+		<value>
+			<label>cork board</label>
+		</value>
+	</Operation>
+
+</Patch>

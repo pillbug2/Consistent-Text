@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- roll out solar array -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CO_SolarArrayGenerator"]/label</xpath>
+		<value>
+			<label>roll-out solar array</label>
+		</value>
+	</Operation>
+
+	<!-- roll out solar panel -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CO_SolarArrayPanel"]/label</xpath>
+		<value>
+			<label>roll-out solar panel</label>
+		</value>
+	</Operation>
+
+	<!-- vac double door -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CO_VacDoorDouble"]/label</xpath>
+		<value>
+			<label>double vac door</label>
+		</value>
+	</Operation>
+
+	<!-- vac triple door -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CO_VacDoorTriple"]/label</xpath>
+		<value>
+			<label>triple vac door</label>
+		</value>
+	</Operation>
+
+	<!-- vac barrier projector on wall -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CO_VacBarrierProjectorWall"]/label</xpath>
+		<value>
+			<label>wall vac barrier projector</label>
+		</value>
+	</Operation>
+
+	<!-- terrain scanner -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CO_TerrainScanner"]/label</xpath>
+		<value>
+			<label>local terrain scanner</label>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- potter's wheel -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DV_ClayTurningTable"]/label</xpath>
+		<value>
+			<label>potter's wheel</label>
+		</value>
+	</Operation>
+
+	<!-- clay-turning table -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DV_IndustrialClayTurningTable"]/label</xpath>
+		<value>
+			<label>electric potter's wheel</label>
+		</value>
+	</Operation>
+	
+	<!-- pots -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DV_Pots"]/label</xpath>
+		<value>
+			<label>clay pots (small)</label>
+		</value>
+	</Operation>
+
+	<!-- big pot -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DV_BigPot"]/label</xpath>
+		<value>
+			<label>clay pot (large)</label>
+		</value>
+	</Operation>
+	
+</Patch>

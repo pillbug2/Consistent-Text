@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>    
+	
+	<!-- Tunnel Boring Machine -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="BreadMoAM_TunnelBoringMachine"]/label</xpath>
+        <value>
+            <label>tunnel boring machine</label>
+        </value>
+    </Operation>
+
+	<!-- Electrical Appliances -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_ElectricalEquipment"]/label</xpath>
+		<value>
+			<label>electrical appliances</label>
+		</value>
+	</Operation>
+
+	<!-- Mineral Conveyor -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_MineralConveyor"]/label</xpath>
+		<value>
+			<label>mineral conveyor</label>
+		</value>
+	</Operation>
+
+	<!-- Tunnel Structural Support -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_TunnelStructuralSupport_a"]/label</xpath>
+		<value>
+			<label>tunnel structural support</label>
+		</value>
+	</Operation>
+
+	<!-- Tunnel Structural Support -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_TunnelStructuralSupport_b"]/label</xpath>
+		<value>
+			<label>tunnel structural support</label>
+		</value>
+	</Operation>
+
+	<!-- Mineral Outlet -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_MineralExports"]/label</xpath>
+		<value>
+			<label>mineral outlet</label>
+		</value>
+	</Operation>
+
+	<!-- Ore Dressing Machine -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_OreDressingMachine"]/label</xpath>
+		<value>
+			<label>ore dressing machine</label>
+		</value>
+	</Operation>
+
+	<!-- Automatic Drilling Rig -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AutomaticDrillingRig"]/label</xpath>
+		<value>
+			<label>automatic drilling rig</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Mud Carriage -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMudCarriage"]/label</xpath>
+		<value>
+			<label>ancient mud carriage</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Steel Mining Car -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientSteelMiningCars"]/label</xpath>
+		<value>
+			<label>ancient steel mining car</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Uranium Mining Car -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientUraniumMiningCars"]/label</xpath>
+		<value>
+			<label>ancient uranium mining car</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Plasteel Mining Car -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientPlasteelMiningCars"]/label</xpath>
+		<value>
+			<label>ancient plasteel mining car</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Empty Mining Car -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientEmptyMiningCar"]/label</xpath>
+		<value>
+			<label>ancient mining car</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Rock Mining Car -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientRockMiningCar"]/label</xpath>
+		<value>
+			<label>ancient rock mining car</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Indoor Fire Hydrants -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientIndoorFireHydrants"]/label</xpath>
+		<value>
+			<label>ancient indoor fire hydrant</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Barrier Gate -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientBarrierGate"]/label</xpath>
+		<value>
+			<label>ancient barrier gate</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Truck Compartment -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTruckCompartment"]/label</xpath>
+		<value>
+			<label>ancient truck compartment</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Semi Trailer -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientSemiTrailer"]/label</xpath>
+		<value>
+			<label>ancient semi trailer</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Rusted Truck -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientRustedTruck"]/label</xpath>
+		<value>
+			<label>ancient rusted truck</label>
+		</value>
+	</Operation>
+
+	<!-- Warning Board -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_WarningBoard"]/label</xpath>
+		<value>
+			<label>warning sign</label>
+		</value>
+	</Operation>
+
+	<!-- Discarded Radiation Suit -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_DiscardedRadiationSuit"]/label</xpath>
+		<value>
+			<label>discarded radiation suit</label>
+		</value>
+	</Operation>
+
+	<!-- Pick Axe -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_PickAxe"]/label</xpath>
+		<value>
+			<label>pick axe</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Broken Turret -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientBrokenTurret"]/label</xpath>
+		<value>
+			<label>ancient broken turret</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Mini Shotgun Turret -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_Turret_ShotgunTurret"]/label</xpath>
+		<value>
+			<label>ancient shotgun mini-turret</label>
+		</value>
+	</Operation>
+
+	<!-- Mini Shotgun Turret -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_Turret_ShotgunTurretN"]/label</xpath>
+		<value>
+			<label>shotgun mini-turret</label>
+		</value>
+	</Operation>
+
+	<!-- Large Caliber Shotgun Turret -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_Turret_LargeShotgun"]/label</xpath>
+		<value>
+			<label>large-caliber shotgun turret</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Tunnel Boring Machine -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelBoringMachine"]/label</xpath>
+		<value>
+			<label>ancient tunnel boring machine</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Electrical Appliances -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientElectricalEquipment"]/label</xpath>
+		<value>
+			<label>ancient electrical appliances</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Mineral Conveyor -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMineralConveyor"]/label</xpath>
+		<value>
+			<label>ancient mineral conveyor</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Structural Support -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_a"]/label</xpath>
+		<value>
+			<label>ancient structural support</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Structural Support -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_b"]/label</xpath>
+		<value>
+			<label>ancient structural support</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Structural Support -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_c"]/label</xpath>
+		<value>
+			<label>ancient structural support</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Mineral Outlet -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMineralExports"]/label</xpath>
+		<value>
+			<label>ancient mineral outlet</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Ore Dressing Machine -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientOreDressingMachine"]/label</xpath>
+		<value>
+			<label>ancient ore dressing machine</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Automatic Drilling Rig -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientAutomaticDrillingRig"]/label</xpath>
+		<value>
+			<label>ancient automatic drilling rig</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Giant Rock Excavator Chassis -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientGiantRockExcavator"]/label</xpath>
+		<value>
+			<label>ancient giant rock excavator chassis</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Excavator Power System -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientExcavatorPowerFacilities"]/label</xpath>
+		<value>
+			<label>ancient excavator power system</label>
+		</value>
+	</Operation>
+
+	<!-- Ancient Excavator Bucket Wheel -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientExcavatorBucketWheel"]/label</xpath>
+		<value>
+			<label>ancient excavator bucket wheel</label>
+		</value>
+	</Operation>
+	
+</Patch>

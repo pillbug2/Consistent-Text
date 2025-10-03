@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Copied from Ferny's Sculpting Bench mod: https://steamcommunity.com/sharedfiles/filedetails/?id=3208616092 -->
+	
+	<!-- art bench -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="TableSculpting"]/label</xpath>
+		<value>
+			<label>sculpting bench</label>
+		</value>
+	</Operation>
+	
+</Patch>

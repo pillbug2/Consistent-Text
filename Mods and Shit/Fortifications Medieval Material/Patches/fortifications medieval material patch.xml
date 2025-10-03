@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>    
+	
+	<!-- collecting spot -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="FT_GatheringSpot"]/label</xpath>
+        <value>
+            <label>pebble gathering spot</label>
+        </value>
+    </Operation>
+
+	<!-- Masonry table -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FT_TableMasonry"]/label</xpath>
+		<value>
+			<label>masonry table</label>
+		</value>
+	</Operation>
+	
+</Patch>

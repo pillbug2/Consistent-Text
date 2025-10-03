@@ -13,6 +13,9 @@
 		<li>1.5</li>
 		<li>1.6</li>
 	</supportedVersions>
+	<incompatibleWith>
+		<li>ferny.sculptingbench</li> <!-- Redundant -->
+	</incompatibleWith>
 	<loadAfter>
 <!-- CORE+DLCS -->
 		<li>Ludeon.Rimworld</li>
@@ -35,5 +38,29 @@
 		<li>vanillaexpanded.vfecore</li>
 		<li>als.gravtech</li>
 		<li>dubwise.rimatomics</li>
+		<li>k.psitech</li>
+		<li>aelanna.eccentrictech.furniture</li>
+		<li>vat.epoeforked</li>
+		<li>sarg.alphacrafts</li>
+		<li>det.epochspottery</li>
+		<li>fox.simplelearning</li>
+		<li>vanillaexpanded.vcookehaute</li>
+		<li>vanillaexpanded.vbookse</li>
+		<li>mlie.apothecary</li>
+		<li>aoba.fortress.medieval.material</li>
+		<li>untamo.apothecary.expansion</li>
+		<li>propickelz.tinkerbench</li>
+		<li>xmb.ancienthydroponicfarmfacilities.mo</li>
+		<li>xmb.ancientminingindustry.mo</li>
+		<li>salvador143.mthings.geysers</li>
+		<li>relvl.digitalstorageunit</li>
+		<li>side1iner.possessionsplus</li>
+		<li>resurrectionem.furnitureasia</li>
+		<li>resurrectionem.furniture</li>
+		<li>mlie.bondagebedtorture</li>
+		<li>ucp.walldecorations</li>
+		<li>mrhydralisk.complementaryodyssey</li>
+		<li>sarg.alphaimplants</li>
+		<li>aelanna.eccentrictech.fusionpower</li>
 	</loadAfter>
 </ModMetaData> 
