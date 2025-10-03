@@ -38,5 +38,36 @@
 	<li IfModActive="mrhydralisk.complementaryodyssey">Mods and Shit/Complementary Odyssey</li>
 	<li IfModActive="sarg.alphaimplants">Mods and Shit/Alpha Implants</li>
 	<li IfModActive="aelanna.eccentrictech.fusionpower">Mods and Shit/Eccentric Tech Fusion Power</li>
+	  <!--
+	  Replimat (caps)
+	  GlitterNet (caps)
+	  Atmospheric Water Processor (caps)
+	  Atmospheric Water Collection (caps)
+	  Rimefeller (capitalizations at least)
+	  VE Chemfuel Unofficial Expansion - hide neutro tank if VE androids is enabled (put in personal patches)
+	  Eccentric Defense Grid
+	  Ship Wall Enhanced
+	  CeleTech subsonic disruptor (rename)
+	  Reel's turret pipeline (better names for dispenser,injector)
+	  Drakken laser drill (ancient rename?) (also update sort)
+	  Subspace Burst Transponder (capitalized)
+	  Anomaly Portal (clean)
+	  Temperature Gauge (clean wall building)
+	  Fortifications - Industrial (rename hydrant)
+	  VE Recycling (more descriptive names)
+	  GravTech (rename computer core - too long)
+	  Rimworld ship naming ('spaceship')
+	  Zipline (rename to hub or smthn)
+      Cryogenic Tank (parenthesize sizes)
+	  MedPod (where applicable)
+	  Gene Extractor Tiers (maybe)
+	  DMS if possible
+	  Anima Obelisk
+	  Biotech Expansion Mythic (simple totem)
+	  vanilla childhood blackboard (do something since overlap w simple learning)
+	  DBH (sauna)
+	  Ponpeco Furniture (fix decorations sort too)
+	  RR chinese furniture (re-sort room dividers into Decorations)
+	  -->
   </v1.6>
 </loadFolders>
