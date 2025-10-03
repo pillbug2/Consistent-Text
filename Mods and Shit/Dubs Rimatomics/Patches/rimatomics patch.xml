@@ -3,6 +3,7 @@
 	
 	<!-- Rimatomics machining table -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="TableRimatomicsMachining"]/label</xpath>
 		<value>
 			<label>nuclear machining table</label>
@@ -11,6 +12,7 @@
 
 	<!-- Rimatomics research bench -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="NuclearResearchBench"]/label</xpath>
 		<value>
 			<label>nuclear research bench</label>
@@ -19,6 +21,7 @@
 
 	<!-- Plutonium Processor -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="PlutoniumProcessor"]/label</xpath>
 		<value>
 			<label>plutonium processor</label>
@@ -27,6 +30,7 @@
 
 	<!-- Research Reactor -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ResearchReactor"]/label</xpath>
 		<value>
 			<label>nuclear research reactor</label>
@@ -35,6 +39,7 @@
 
 	<!-- Weapons Research Bench -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="WeaponsBench"]/label</xpath>
 		<value>
 			<label>weapons research bench</label>
@@ -43,6 +48,7 @@
 
 	<!-- coolant pipe (hidden) -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="coolingPipeHidden"]/label</xpath>
 		<value>
 			<label>hidden coolant pipe</label>
@@ -51,6 +57,7 @@
 
 	<!-- steam water pipe (hidden) -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="steamPipeHidden"]/label</xpath>
 		<value>
 			<label>hidden steam pipe</label>
@@ -59,6 +66,7 @@
 
 	<!-- cold water pipe (hidden) -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="waterPipeHidden"]/label</xpath>
 		<value>
 			<label>hidden cold water pipe</label>
@@ -67,6 +75,7 @@
 
 	<!-- High Voltage -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="HighVoltage"]/label</xpath>
 		<value>
 			<label>high voltage cable</label>
@@ -75,6 +84,7 @@
 
 	<!-- high voltage (hidden) -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="HighVoltageHidden"]/label</xpath>
 		<value>
 			<label>hidden high voltage cable</label>
@@ -83,6 +93,7 @@
 
 	<!-- Console Loom -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="controllerLoom"]/label</xpath>
 		<value>
 			<label>console loom</label>
@@ -91,6 +102,7 @@
 
 	<!-- console loom (hidden) -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="controllerLoomHidden"]/label</xpath>
 		<value>
 			<label>hidden console loom</label>
@@ -99,6 +111,7 @@
 
 	<!-- R.T.G -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RimatomicsRTG"]/label</xpath>
 		<value>
 			<label>RTG</label>
@@ -107,6 +120,7 @@
 
 	<!-- Reactor Type A -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReactorCoreA"]/label</xpath>
 		<value>
 			<label>Type A fission reactor</label>
@@ -115,6 +129,7 @@
 
 	<!-- Reactor Type X -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReactorCoreB"]/label</xpath>
 		<value>
 			<label>Type X fission reactor</label>
@@ -123,6 +138,7 @@
 
 	<!-- Reactor Type V -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReactorCoreC"]/label</xpath>
 		<value>
 			<label>Type V fission reactor</label>
@@ -131,6 +147,7 @@
 
 	<!-- Thor Turbine -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Turbine"]/label</xpath>
 		<value>
 			<label>Thor turbine generator</label>
@@ -139,6 +156,7 @@
 
 	<!-- Zeus Turbine -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BigTurbine"]/label</xpath>
 		<value>
 			<label>Zeus turbine generator</label>
@@ -147,6 +165,7 @@
 
 	<!-- Water Cooling -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="CoolingWater"]/label</xpath>
 		<value>
 			<label>water exchanger</label>
@@ -155,6 +174,7 @@
 
 	<!-- Cooling Tower -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="CoolingTower"]/label</xpath>
 		<value>
 			<label>cooling tower</label>
@@ -163,6 +183,7 @@
 
 	<!-- High Voltage Transformer -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Transformer"]/label</xpath>
 		<value>
 			<label>high voltage transformer</label>
@@ -171,6 +192,7 @@
 
 	<!-- Storage Pool -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="storagePool"]/label</xpath>
 		<value>
 			<label>fuel storage pool</label>
@@ -179,6 +201,7 @@
 
 	<!-- Radiation Detector -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RadiationDetector"]/label</xpath>
 		<value>
 			<label>radiation detector</label>
@@ -187,6 +210,7 @@
 
 	<!-- Sarcophagus Type A -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReactorSacrophagus"]/label</xpath>
 		<value>
 			<label>Type A sarcophagus</label>
@@ -195,6 +219,7 @@
 	
 	<!-- Sarcophagus Type X -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReactorSacrophagusB"]/label</xpath>
 		<value>
 			<label>Type X sarcophagus</label>
@@ -203,6 +228,7 @@
 
 	<!-- Sarcophagus Type V -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReactorSacrophagusC"]/label</xpath>
 		<value>
 			<label>Type V sarcophagus</label>
@@ -211,14 +237,16 @@
 
 	<!-- Reinforced DU Wall -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RadiationShielding"]/label</xpath>
 		<value>
-			<label>shielding</label>
+			<label>shielding wall</label>
 		</value>
 	</Operation>
 
 	<!-- DU Blast door -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DU_Blastdoor"]/label</xpath>
 		<value>
 			<label>shielding door</label>

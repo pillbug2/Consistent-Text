@@ -3,6 +3,7 @@
 	
 	<!-- animal prosthetics and bionics table -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AI_AnimalProstheticsTable"]/label</xpath>
 		<value>
 			<label>animal bionics table</label>
@@ -11,6 +12,7 @@
 
 	<!-- advanced animal prosthetics and bionics table -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AI_AdvancedAnimalProstheticsTable"]/label</xpath>
 		<value>
 			<label>advanced animal bionics table</label>

@@ -3,6 +3,7 @@
 	
 	<!-- collecting spot -->
     <Operation Class="PatchOperationReplace">
+		<success>Always</success>
         <xpath>Defs/ThingDef[defName="FT_GatheringSpot"]/label</xpath>
         <value>
             <label>pebble gathering spot</label>
@@ -11,6 +12,7 @@
 
 	<!-- Masonry table -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_TableMasonry"]/label</xpath>
 		<value>
 			<label>masonry table</label>

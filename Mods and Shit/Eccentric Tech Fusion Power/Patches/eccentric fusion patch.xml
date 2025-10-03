@@ -3,6 +3,7 @@
 
 	<!-- MMFS (small) -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Eccentric_FusionGeneratorSmall"]/label</xpath>
 		<value>
 			<label>fusion stellarator (small)</label>
@@ -11,6 +12,7 @@
 
 	<!-- MMFS -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Eccentric_FusionGenerator"]/label</xpath>
 		<value>
 			<label>fusion stellarator</label>

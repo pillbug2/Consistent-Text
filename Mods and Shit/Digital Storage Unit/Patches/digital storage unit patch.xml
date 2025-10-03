@@ -3,6 +3,7 @@
 	
 	<!-- DSU Input Bus -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DSU_InputBus_Building"]/label</xpath>
 		<value>
 			<label>DSU input bus</label>
@@ -11,6 +12,7 @@
 
 	<!-- Digital Storage Unit -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DSU_DigitalStorageUnit_Building"]/label</xpath>
 		<value>
 			<label>digital storage unit</label>
@@ -19,6 +21,7 @@
 
 	<!-- DSU Data Extender -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DSU_DataExtender"]/label</xpath>
 		<value>
 			<label>DSU data extender</label>
@@ -27,6 +30,7 @@
 
 	<!-- DSU Access Point -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DSU_AccessPoint_Building"]/label</xpath>
 		<value>
 			<label>DSU access point</label>
@@ -35,6 +39,7 @@
 
 	<!-- DSU Output Bus -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DSU_OutputBus_Building"]/label</xpath>
 		<value>
 			<label>DSU output bus</label>

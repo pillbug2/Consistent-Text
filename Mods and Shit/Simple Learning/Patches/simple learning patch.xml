@@ -3,6 +3,7 @@
 	
 	<!-- Neolithic Desk -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Neo_Learning_Desk"]/label</xpath>
 		<value>
 			<label>student tablet</label>
@@ -11,6 +12,7 @@
 
 	<!-- Regular Desk -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Mid_Learning_Desk"]/label</xpath>
 		<value>
 			<label>student desk</label>
@@ -19,6 +21,7 @@
 
 	<!-- Advanced Desk -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Adv_Learning_Desk"]/label</xpath>
 		<value>
 			<label>computer desk</label>
@@ -27,6 +30,7 @@
 
 	<!-- Spacer Desk -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Spacer_Learning_Desk"]/label</xpath>
 		<value>
 			<label>interactive desk</label>
@@ -35,6 +39,7 @@
 
 	<!-- Neolithic Stone -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Neo_Board"]/label</xpath>
 		<value>
 			<label>learning stone</label>
@@ -43,6 +48,7 @@
 
 	<!-- Chalk Board -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Board"]/label</xpath>
 		<value>
 			<label>chalkboard</label>
@@ -51,6 +57,7 @@
 
 	<!-- Spacer Board -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Spacer_Board"]/label</xpath>
 		<value>
 			<label>interactive board</label>
@@ -59,6 +66,7 @@
 
 	<!-- Spacer Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Spacer_Joy_Bookshelf"]/label</xpath>
 		<value>
 			<label>interactive bookshelf</label>
@@ -67,6 +75,7 @@
 
 	<!-- Joy Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Joy_Bookshelf"]/label</xpath>
 		<value>
 			<label>joy bookshelf</label>
@@ -75,6 +84,7 @@
 
 	<!-- Shooting Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Shooting_Bookshelf"]/label</xpath>
 		<value>
 			<label>shooting bookshelf</label>
@@ -83,6 +93,7 @@
 
 	<!-- Melee Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Melee_Bookshelf"]/label</xpath>
 		<value>
 			<label>melee bookshelf</label>
@@ -91,6 +102,7 @@
 
 	<!-- Construction Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Construct_Bookshelf"]/label</xpath>
 		<value>
 			<label>construction bookshelf</label>
@@ -99,6 +111,7 @@
 
 	<!-- Mining Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Mining_Bookshelf"]/label</xpath>
 		<value>
 			<label>mining bookshelf</label>
@@ -107,6 +120,7 @@
 
 	<!-- Cooking Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Cooking_Bookshelf"]/label</xpath>
 		<value>
 			<label>cooking bookshelf</label>
@@ -115,6 +129,7 @@
 
 	<!-- Plants Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Plants_Bookshelf"]/label</xpath>
 		<value>
 			<label>plants bookshelf</label>
@@ -123,6 +138,7 @@
 
 	<!-- Animals Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Animals_Bookshelf"]/label</xpath>
 		<value>
 			<label>animals bookshelf</label>
@@ -131,6 +147,7 @@
 
 	<!-- Crafting Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Crafting_Bookshelf"]/label</xpath>
 		<value>
 			<label>crafting bookshelf</label>
@@ -139,6 +156,7 @@
 
 	<!-- Art Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Art_Bookshelf"]/label</xpath>
 		<value>
 			<label>art bookshelf</label>
@@ -147,6 +165,7 @@
 
 	<!-- Medicine Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Medicine_Bookshelf"]/label</xpath>
 		<value>
 			<label>medicine bookshelf</label>
@@ -155,6 +174,7 @@
 
 	<!-- Social Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Social_Bookshelf"]/label</xpath>
 		<value>
 			<label>social bookshelf</label>
@@ -163,6 +183,7 @@
 
 	<!-- Intellectual Bookshelf -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Intellectual_Bookshelf"]/label</xpath>
 		<value>
 			<label>intellectual bookshelf</label>
@@ -171,6 +192,7 @@
 
 	<!-- Library table -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Library_Table"]/label</xpath>
 		<value>
 			<label>reading table</label>
@@ -179,6 +201,7 @@
 
 	<!-- Author Desk -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AuthorDesk"]/label</xpath>
 		<value>
 			<label>writing desk</label>
@@ -187,6 +210,7 @@
 
 	<!-- Printing Press -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Printing_Press"]/label</xpath>
 		<value>
 			<label>printing press</label>
@@ -195,6 +219,7 @@
 
 	<!-- Lockers -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Fox_Lockers"]/label</xpath>
 		<value>
 			<label>student lockers</label>

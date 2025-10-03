@@ -3,6 +3,7 @@
 	
 	<!-- oil press workshop -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AC_OilPressWorkshop"]/label</xpath>
 		<value>
 			<label>oil press</label>
@@ -11,6 +12,7 @@
 
 	<!-- artisan workshop -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AC_ArtisanWorkshop"]/label</xpath>
 		<value>
 			<label>artisan workbench</label>
@@ -19,7 +21,8 @@
 
 	<!-- dairy processing station -->
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AC_ArtisanWorkshop"]/label</xpath>
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AC_DairyProcessingStation"]/label</xpath>
 		<value>
 			<label>dairy processor</label>
 		</value>
@@ -27,6 +30,7 @@
 
 	<!-- artisan fermenter -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/label</xpath>
 		<value>
 			<label>fermentation reactor</label>
@@ -35,7 +39,8 @@
 
 	<!-- artisanal grinder -->
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/label</xpath>
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AC_ArtisanalGrinder"]/label</xpath>
 		<value>
 			<label>food processor</label>
 		</value>

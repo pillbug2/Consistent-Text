@@ -3,6 +3,7 @@
 	
 	<!-- electric haute section -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="VCE_ElectricHauteSection"]/label</xpath>
 		<value>
 			<label>haute cooking station</label>

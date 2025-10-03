@@ -15,7 +15,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_mirrorlight"]/label</xpath>
 		<value>
-			<label>wall mirror (lit)</label>
+			<label>illuminated wall mirror</label>
 		</value>
 	</Operation>
 
@@ -24,7 +24,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleaves"]/label</xpath>
 		<value>
-			<label>Ivy leaves</label>
+			<label>ivy leaves</label>
 		</value>
 	</Operation>
 
@@ -33,7 +33,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavescorner"]/label</xpath>
 		<value>
-			<label>Ivy leaves (corner)</label>
+			<label>ivy leaves (corner)</label>
 		</value>
 	</Operation>
 
@@ -42,7 +42,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavesinner"]/label</xpath>
 		<value>
-			<label>Ivy leaves (inner)</label>
+			<label>ivy leaves (inner)</label>
 		</value>
 	</Operation>
 
@@ -51,7 +51,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternA"]/label</xpath>
 		<value>
-			<label>Ivy leaves (pattern A)</label>
+			<label>ivy leaves (pattern A)</label>
 		</value>
 	</Operation>
 
@@ -60,7 +60,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternB"]/label</xpath>
 		<value>
-			<label>Ivy leaves (pattern B)</label>
+			<label>ivy leaves (pattern B)</label>
 		</value>
 	</Operation>
 
@@ -69,7 +69,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternC"]/label</xpath>
 		<value>
-			<label>Ivy leaves (pattern C)</label>
+			<label>ivy leaves (pattern C)</label>
 		</value>
 	</Operation>
 
@@ -78,7 +78,70 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternD"]/label</xpath>
 		<value>
-			<label>Ivy leaves (pattern D)</label>
+			<label>ivy leaves (pattern D)</label>
+		</value>
+	</Operation>
+
+	<!-- Gauranlen Leaves -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavesorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves</label>
+		</value>
+	</Operation>
+
+	<!-- Gauranlen Leaves (corner) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavescornerorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (corner)</label>
+		</value>
+	</Operation>
+
+	<!-- Gauranlen Leaves (inner) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavesinnerorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (inner)</label>
+		</value>
+	</Operation>
+
+	<!-- Gauranlen Leaves (Pattern A) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternAorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (pattern A)</label>
+		</value>
+	</Operation>
+
+	<!-- Gauranlen Leaves (Pattern B) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternBorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (pattern B)</label>
+		</value>
+	</Operation>
+
+	<!-- Gauranlen Leaves (Pattern C) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternCorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (pattern C)</label>
+		</value>
+	</Operation>
+
+	<!-- Gauranlen Leaves (Pattern D) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternDorange"]/label</xpath>
+		<value>
+			<label>gauranlen leaves (pattern D)</label>
 		</value>
 	</Operation>
 

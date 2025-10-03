@@ -3,6 +3,7 @@
 	
 	<!-- Apothecary Table -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYApothecaryTable"]/label</xpath>
 		<value>
 			<label>apothecary table</label>
@@ -11,6 +12,7 @@
 
 	<!-- Charcoal Brazier -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYBrazier"]/label</xpath>
 		<value>
 			<label>charcoal brazier</label>
@@ -19,6 +21,7 @@
 
 	<!-- Passive cooler (Ammonia) -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYPassiveCooler"]/label</xpath>
 		<value>
 			<label>ammonia cooler</label>
@@ -27,6 +30,7 @@
 
 	<!-- Large Casting Table -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYLargeCastArtTable"]/label</xpath>
 		<value>
 			<label>large casting table</label>
@@ -35,6 +39,7 @@
 
 	<!-- Casting Table -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYCastArtTable"]/label</xpath>
 		<value>
 			<label>casting table</label>
@@ -43,6 +48,7 @@
 
 	<!-- Charcoal Kiln -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYCharcoalKiln"]/label</xpath>
 		<value>
 			<label>charcoal kiln</label>
@@ -51,6 +57,7 @@
 
 	<!-- Potting Mix Composting barrel -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYCompostBarrel"]/label</xpath>
 		<value>
 			<label>composting barrel</label>
@@ -59,6 +66,7 @@
 
 	<!-- Herb Box -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYHerbBox"]/label</xpath>
 		<value>
 			<label>planting box</label>
@@ -67,6 +75,7 @@
 
 	<!-- Herb Box (Limed) -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYHerbBoxLime"]/label</xpath>
 		<value>
 			<label>limed planting box</label>
@@ -75,6 +84,7 @@
 
 	<!-- Potash barrel -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYPotashBarrel"]/label</xpath>
 		<value>
 			<label>potash leeching barrel</label>
@@ -83,6 +93,7 @@
 
 	<!-- Preserving barrel -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYPreserveBarrel"]/label</xpath>
 		<value>
 			<label>preservation barrel</label>
@@ -91,6 +102,7 @@
 
 	<!-- Clothes washing tub -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYApparelWashingTub"]/label</xpath>
 		<value>
 			<label>washboard</label>
@@ -99,6 +111,7 @@
 
 	<!-- Water Grower -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYWaterGrower"]/label</xpath>
 		<value>
 			<label>water planting box</label>

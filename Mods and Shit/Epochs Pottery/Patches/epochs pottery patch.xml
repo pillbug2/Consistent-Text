@@ -3,6 +3,7 @@
 	
 	<!-- potter's wheel -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DV_ClayTurningTable"]/label</xpath>
 		<value>
 			<label>potter's wheel</label>
@@ -11,6 +12,7 @@
 
 	<!-- clay-turning table -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DV_IndustrialClayTurningTable"]/label</xpath>
 		<value>
 			<label>electric potter's wheel</label>
@@ -19,17 +21,19 @@
 	
 	<!-- pots -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DV_Pots"]/label</xpath>
 		<value>
-			<label>clay pots (small)</label>
+			<label>clay pots</label>
 		</value>
 	</Operation>
 
 	<!-- big pot -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DV_BigPot"]/label</xpath>
 		<value>
-			<label>clay pot (large)</label>
+			<label>large clay pot</label>
 		</value>
 	</Operation>
 	

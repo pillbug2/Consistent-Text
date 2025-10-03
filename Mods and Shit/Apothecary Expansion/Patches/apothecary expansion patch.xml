@@ -3,6 +3,7 @@
 	
 	<!-- Basic Apothecary Table -->
     <Operation Class="PatchOperationReplace">
+		<success>Always</success>
         <xpath>Defs/ThingDef[defName="Untamo_AYApothecaryTable_Basic"]/label</xpath>
         <value>
             <label>simple apothecary table</label>
@@ -11,6 +12,7 @@
 
 	<!-- Intermediate Apothecary Table -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Untamo_AYApothecaryTable_Intermediate"]/label</xpath>
 		<value>
 			<label>apothecary table</label>
@@ -19,6 +21,7 @@
 
 	<!-- Advanced Apothecary Table -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Untamo_AYApothecaryTable_Advanced"]/label</xpath>
 		<value>
 			<label>advanced apothecary table</label>

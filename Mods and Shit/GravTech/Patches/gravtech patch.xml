@@ -3,6 +3,7 @@
 	
 	<!-- The Singularity Reactor -->
 	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/label</xpath>
 		<value>
 			<label>singularity reactor</label>

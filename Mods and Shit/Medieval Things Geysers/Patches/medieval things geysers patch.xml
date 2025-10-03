@@ -3,6 +3,7 @@
 	
 	<!-- Geyser Core -->
     <Operation Class="PatchOperationReplace">
+		<success>Always</success>
         <xpath>Defs/ThingDef[defName="MThingsGeysersCore"]/label</xpath>
         <value>
             <label>geyser core</label>
@@ -10,14 +11,12 @@
     </Operation>
 
 	<!-- Magicyte Harvester -->
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/DesignationCategoryDef[defName="MThingsGeysersMagicyteHarvester"]</xpath>
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="MThingsGeysersMagicyteHarvester"]/label</xpath>
-			<value>
-				<label>magicyte harvester</label>
-			</value>
-		</match>
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="MThingsGeysersMagicyteHarvester"]/label</xpath>
+		<value>
+			<label>magicyte harvester</label>
+		</value>
 	</Operation>
 	
 </Patch>
