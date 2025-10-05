@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<!-- FSX Refiner -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CombatExtendedFsxRefiner"]/label</xpath>
+		<value>
+			<label>FSX refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Synthylene Refiner -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SynthyleneRefiner"]/label</xpath>
+		<value>
+			<label>synthylene refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Napalm Refiner -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="NapalmRefiner"]/label</xpath>
+		<value>
+			<label>napalm refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Synthread Refiner -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SynthreadRefiner"]/label</xpath>
+		<value>
+			<label>synthread refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Synthamide Refiner -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SynthamideRefiner"]/label</xpath>
+		<value>
+			<label>synthamide refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Hyperweave Refiner -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="HyperweaveRefiner"]/label</xpath>
+		<value>
+			<label>hyperweave refinery</label>
+		</value>
+	</Operation>
+
+	<!-- Neutroamine Refiner -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="NeutroamineRefiner"]/label</xpath>
+		<value>
+			<label>neutroamine refinery</label>
+		</value>
+	</Operation>
+
+	<!-- resource console -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ResourceConsole"]/label</xpath>
+		<value>
+			<label>petrochem console</label>
+		</value>
+	</Operation>
+
+	<!-- chemfuel powerplant -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="FuelPowerplant"]/label</xpath>
+		<value>
+			<label>chemfuel power plant</label>
+		</value>
+	</Operation>
+
+	<!-- large chemfuel powerplant -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="LargeFuelPowerplant"]/label</xpath>
+		<value>
+			<label>chemfuel power plant (large)</label>
+		</value>
+	</Operation>
+
+	<!-- oil pipeline (hidden) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="OilPipelineHidden"]/label</xpath>
+		<value>
+			<label>hidden oil pipeline</label>
+		</value>
+	</Operation>
+
+</Patch>

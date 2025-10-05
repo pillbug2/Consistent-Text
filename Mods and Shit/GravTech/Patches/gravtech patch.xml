@@ -9,5 +9,14 @@
 			<label>singularity reactor</label>
 		</value>
 	</Operation>
+
+	<!-- advanced gravship computer core -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AdvShip_ComputerCore"]/label</xpath>
+		<value>
+			<label>gravship computer core</label>
+		</value>
+	</Operation>
 	
 </Patch>

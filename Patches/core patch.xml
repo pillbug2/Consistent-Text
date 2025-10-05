@@ -2,12 +2,59 @@
 <Patch>
 
 	<!-- Copied from Ferny's Sculpting Bench mod: https://steamcommunity.com/sharedfiles/filedetails/?id=3208616092 -->
-	
 	<!-- art bench -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="TableSculpting"]/label</xpath>
 		<value>
 			<label>sculpting bench</label>
+		</value>
+	</Operation>
+
+	<!-- ship structural beam -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_Beam"]/label</xpath>
+		<value>
+			<label>spaceship structural beam</label>
+		</value>
+	</Operation>
+
+	<!-- ship reactor -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_Reactor"]/label</xpath>
+		<value>
+			<label>spaceship reactor</label>
+		</value>
+	</Operation>
+
+	<!-- ship engine -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_Engine"]/label</xpath>
+		<value>
+			<label>spaceship engine</label>
+		</value>
+	</Operation>
+
+	<!-- ship computer core -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_ComputerCore"]/label</xpath>
+		<value>
+			<label>spaceship computer core</label>
+		</value>
+	</Operation>
+
+	<!-- ship cryptosleep casket -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_CryptosleepCasket"]/label</xpath>
+		<value>
+			<label>spaceship cryptosleep casket</label>
+		</value>
+	</Operation>
+
+	<!-- sensor cluster -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Ship_SensorCluster"]/label</xpath>
+		<value>
+			<label>spaceship sensor cluster</label>
 		</value>
 	</Operation>
 	

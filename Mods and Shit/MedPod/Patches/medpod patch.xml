@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+    <!-- Invisible Blocker -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="MedPodInvisibleBlocker"]/label</xpath>
+        <value>
+            <label>invisible blocker</label>
+        </value>
+    </Operation>
+
+	<!-- MedPod Lux -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName=""]/label</xpath>
+		<value>
+			<label>MedPod (luxury)</label>
+		</value>
+	</Operation>	
+
+	<!-- VetPod Large -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="MedPodAnimalMedium"]/label</xpath>
+		<value>
+			<label>VetPod (large)</label>
+		</value>
+	</Operation>
+
+	<!-- VetPod Mega -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="MedPodAnimalBig"]/label</xpath>
+		<value>
+			<label>VetPod (mega)</label>
+		</value>
+	</Operation>
+
+</Patch>

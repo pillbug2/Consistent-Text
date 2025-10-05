@@ -6,7 +6,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DV_ClayTurningTable"]/label</xpath>
 		<value>
-			<label>potter's wheel</label>
+			<label>potters wheel</label>
 		</value>
 	</Operation>
 
@@ -15,7 +15,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DV_IndustrialClayTurningTable"]/label</xpath>
 		<value>
-			<label>electric potter's wheel</label>
+			<label>electric potters wheel</label>
 		</value>
 	</Operation>
 	

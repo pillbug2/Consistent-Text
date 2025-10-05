@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+    <!-- Towel Rail -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="RadiatorTowelRail"]/label</xpath>
+        <value>
+            <label>towel rail</label>
+        </value>
+    </Operation>
+
+	<!-- ceiling fan 2x2 -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CeilingFan"]/label</xpath>
+		<value>
+			<label>ceiling fan (2x2)</label>
+		</value>
+	</Operation>
+
+	<!-- ceiling fan 1x1 -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="CeilingFanS"]/label</xpath>
+		<value>
+			<label>ceiling fan (1x1)</label>
+		</value>
+	</Operation>
+
+	<!-- huge water tower -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="WaterTowerL"]/label</xpath>
+		<value>
+			<label>water tower (large)</label>
+		</value>
+	</Operation>
+
+	<!-- sewage treatment -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SewageTreatment"]/label</xpath>
+		<value>
+			<label>sewage treatment plant</label>
+		</value>
+	</Operation>
+
+	<!-- water treatment -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="WaterTreatment"]/label</xpath>
+		<value>
+			<label>water treatment plant</label>
+		</value>
+	</Operation>
+
+	<!-- sewage dump port -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="SewageDumpPort"]/label</xpath>
+		<value>
+			<label>sewage dumping port</label>
+		</value>
+	</Operation>
+
+	<!-- Fueled Sauna Heater -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DBHSaunaHeaterLog"]/label</xpath>
+		<value>
+			<label>fueled sauna heater</label>
+		</value>
+	</Operation>
+
+	<!-- Electric Sauna Heater -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DBHSaunaHeaterElec"]/label</xpath>
+		<value>
+			<label>electric sauna heater</label>
+		</value>
+	</Operation>
+
+	<!-- Sauna seating -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DBHSaunaSeating"]/label</xpath>
+		<value>
+			<label>sauna seating</label>
+		</value>
+	</Operation>
+
+	<!-- Water Trough -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="WaterTrough"]/label</xpath>
+		<value>
+			<label>water trough</label>
+		</value>
+	</Operation>
+
+	<!-- Water Bowl -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="PetWaterBowl"]/label</xpath>
+		<value>
+			<label>water bowl</label>
+		</value>
+	</Operation>
+
+	<!-- Bath Mat -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="BathMat"]/label</xpath>
+		<value>
+			<label>bath mat</label>
+		</value>
+	</Operation>
+
+	<!-- plumbing (hidden) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sewagePipeHidden"]/label</xpath>
+		<value>
+			<label>hidden plumbing</label>
+		</value>
+	</Operation>
+
+	<!-- air-con pipe -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="airPipe"]/label</xpath>
+		<value>
+			<label>air-con duct</label>
+		</value>
+	</Operation>
+
+	<!-- air-con pipe (hidden) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="airPipeHidden"]/label</xpath>
+		<value>
+			<label>hidden air-con pipe</label>
+		</value>
+	</Operation>
+
+</Patch>

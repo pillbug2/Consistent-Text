@@ -198,13 +198,14 @@
 			<label>reading table</label>
 		</value>
 	</Operation>
-
+	
+	<!-- TODO Label collision with VE Books! -->
 	<!-- Author Desk -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AuthorDesk"]/label</xpath>
 		<value>
-			<label>writing desk</label>
+			<label>writers desk</label>
 		</value>
 	</Operation>
 

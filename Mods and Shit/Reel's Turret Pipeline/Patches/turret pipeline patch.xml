@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+    <!-- ammo dispenser -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="Reel_AmmoOutput"]/label</xpath>
+        <value>
+            <label>ammo loader</label>
+        </value>
+    </Operation>
+
+	<!-- ammo injector -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Reel_AmmoDrain"]/label</xpath>
+		<value>
+			<label>ammo hopper</label>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Replimat Terminal -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatTerminal"]/label</xpath>
+		<value>
+			<label>replimat terminal</label>
+		</value>
+	</Operation>
+
+	<!-- Replimat Wall Terminal -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatTerminalWall"]/label</xpath>
+		<value>
+			<label>replimat wall terminal</label>
+		</value>
+	</Operation>
+
+	<!-- Replimat Animal Feeder -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatAnimalFeeder"]/label</xpath>
+		<value>
+			<label>replimat animal feeder</label>
+		</value>
+	</Operation>
+
+	<!-- Replimat Feedstock Tank -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatFeedTank"]/label</xpath>
+		<value>
+			<label>replimat feedstock tank</label>
+		</value>
+	</Operation>
+
+	<!-- Replimat Large Feedstock Tank -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatFeedTankLarge"]/label</xpath>
+		<value>
+			<label>replimat feedstock tank (large)</label>
+		</value>
+	</Operation>
+
+	<!-- Replimat Hopper -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatHopper"]/label</xpath>
+		<value>
+			<label>replimat hopper</label>
+		</value>
+	</Operation>
+
+	<!-- Replimat Cadaver Processor -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatCorpseRecycler"]/label</xpath>
+		<value>
+			<label>replimat cadaver processor</label>
+		</value>
+	</Operation>
+
+	<!-- Replimat Computer -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ReplimatComputer"]/label</xpath>
+		<value>
+			<label>replimat computer</label>
+		</value>
+	</Operation>
+
+</Patch>

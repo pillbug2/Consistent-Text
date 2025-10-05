@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+	
+	<!-- TODO near collision with Atmospheric Water Processor -->
+	<!-- Atmospheric Water Generator -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="ThingDef_AWG"]/label</xpath>
+        <value>
+            <label>atmospheric water generator</label>
+        </value>
+    </Operation>
+	
+</Patch>

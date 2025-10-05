@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- small cryogenic tank -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sbz_SmallCryogenicTank"]/label</xpath>
+		<value>
+			<label>cryogenic tank (small)</label>
+		</value>
+	</Operation>
+
+	<!-- medium cryogenic tank -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sbz_MediumCryogenicTank"]/label</xpath>
+		<value>
+			<label> cryogenic tank (medium)</label>
+		</value>
+	</Operation>
+
+	<!-- large cryogenic tank -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sbz_LargeCryogenicTank"]/label</xpath>
+		<value>
+			<label>cryogenic tank (large)</label>
+		</value>
+	</Operation>
+
+	<!-- extra large cryogenic tank -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sbz_ExtraLargeCryogenicTank"]/label</xpath>
+		<value>
+			<label>cryogenic tank (extra large)</label>
+		</value>
+	</Operation>
+
+</Patch>
