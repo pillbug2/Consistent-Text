@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	
-	<!-- potter's wheel -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DV_ClayTurningTable"]/label</xpath>
-		<value>
-			<label>potters wheel</label>
-		</value>
-	</Operation>
-
-	<!-- clay-turning table -->
+	<!-- Original: clay-turning table -->
+	<!-- Vanilla naming, progression consistency -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DV_IndustrialClayTurningTable"]/label</xpath>
 		<value>
-			<label>electric potters wheel</label>
+			<label>electric potter's wheel</label>
 		</value>
 	</Operation>
 	
-	<!-- pots -->
+	<!-- Original: pots -->
+	<!-- Material consistency -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DV_Pots"]/label</xpath>
@@ -28,7 +21,8 @@
 		</value>
 	</Operation>
 
-	<!-- big pot -->
+	<!-- Original: big pot -->
+	<!-- Vanilla naming, material consistency -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DV_BigPot"]/label</xpath>

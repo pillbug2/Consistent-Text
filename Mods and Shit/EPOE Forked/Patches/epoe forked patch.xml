@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	
-	<!-- synthetic nano printer -->
+	<!-- Original: synthetic nano printer -->
+	<!-- Style change -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="TableOrgans"]/label</xpath>

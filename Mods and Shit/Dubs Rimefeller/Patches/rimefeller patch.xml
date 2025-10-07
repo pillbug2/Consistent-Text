@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+
+	<!-- Original: Rimefeller -->
+	<!-- Vanilla rename -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/DesignationCategoryDef[defName="Rimefeller"]/label</xpath>
+		<value>
+			<label>Petrochem</label>
+		</value>
+	</Operation>
 	
-	<!-- FSX Refiner -->
+	<!-- Original: FSX Refiner -->
+	<!-- Capitalization, common name edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="CombatExtendedFsxRefiner"]/label</xpath>
@@ -10,7 +20,8 @@
 		</value>
 	</Operation>
 
-	<!-- Synthylene Refiner -->
+	<!-- Original: Synthylene Refiner -->
+	<!-- Capitalization, common name edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="SynthyleneRefiner"]/label</xpath>
@@ -19,7 +30,8 @@
 		</value>
 	</Operation>
 
-	<!-- Napalm Refiner -->
+	<!-- Original: Napalm Refiner -->
+	<!-- Capitalization, common name edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="NapalmRefiner"]/label</xpath>
@@ -28,7 +40,8 @@
 		</value>
 	</Operation>
 
-	<!-- Synthread Refiner -->
+	<!-- Original: Synthread Refiner -->
+	<!-- Capitalization, common name edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="SynthreadRefiner"]/label</xpath>
@@ -37,7 +50,8 @@
 		</value>
 	</Operation>
 
-	<!-- Synthamide Refiner -->
+	<!-- Original: Synthamide Refiner -->
+	<!-- Capitalization, common name edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="SynthamideRefiner"]/label</xpath>
@@ -46,7 +60,8 @@
 		</value>
 	</Operation>
 
-	<!-- Hyperweave Refiner -->
+	<!-- Original: Hyperweave Refiner -->
+	<!-- Capitalization, common name edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="HyperweaveRefiner"]/label</xpath>
@@ -55,7 +70,8 @@
 		</value>
 	</Operation>
 
-	<!-- Neutroamine Refiner -->
+	<!-- Original: Neutroamine Refiner -->
+	<!-- Capitalization, common name edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="NeutroamineRefiner"]/label</xpath>
@@ -64,16 +80,8 @@
 		</value>
 	</Operation>
 
-	<!-- resource console -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="ResourceConsole"]/label</xpath>
-		<value>
-			<label>petrochem console</label>
-		</value>
-	</Operation>
-
-	<!-- chemfuel powerplant -->
+	<!-- Original: chemfuel powerplant -->
+	<!-- Common name edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FuelPowerplant"]/label</xpath>
@@ -82,16 +90,18 @@
 		</value>
 	</Operation>
 
-	<!-- large chemfuel powerplant -->
+	<!-- Original: large chemfuel powerplant -->
+	<!-- Common name edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="LargeFuelPowerplant"]/label</xpath>
 		<value>
-			<label>chemfuel power plant (large)</label>
+			<label>large chemfuel power plant</label>
 		</value>
 	</Operation>
 
-	<!-- oil pipeline (hidden) -->
+	<!-- Original: oil pipeline (hidden) -->
+	<!-- Vanilla edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="OilPipelineHidden"]/label</xpath>

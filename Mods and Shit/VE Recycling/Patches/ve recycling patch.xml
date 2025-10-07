@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- pollution fastpump -->
+	<!-- Original: pollution fastpump -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="VRecyclingE_PollutionFastPump"]/label</xpath>
@@ -10,7 +11,8 @@
 		</value>
 	</Operation>
 
-	<!-- waste crate -->
+	<!-- Original: waste crate -->
+	<!-- More functional name. Used Waste Isolation Pilot Plant as inspiration. -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="VRecyclingE_WasteCrate"]/label</xpath>
@@ -19,7 +21,8 @@
 		</value>
 	</Operation>
 
-	<!-- electric-powered recycling bench -->
+	<!-- Original: electric-powered recycling bench -->
+	<!-- Vanilla rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="VRecyclingE_ElectricRecyclingWorkbench"]/label</xpath>
@@ -28,21 +31,13 @@
 		</value>
 	</Operation>
 
-	<!-- garbage compactor -->
+	<!-- Original: garbage compactor -->
+	<!-- Rename in line with description and common name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="VRecyclingE_GarbageCompactor"]/label</xpath>
 		<value>
 			<label>trash compactor</label>
-		</value>
-	</Operation>
-
-	<!-- alloypack splitter -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="VRecyclingE_AlloypackSplitter"]/label</xpath>
-		<value>
-			<label>alloypack sorter</label>
 		</value>
 	</Operation>
 

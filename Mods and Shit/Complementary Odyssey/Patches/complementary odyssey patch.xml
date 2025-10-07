@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<!-- roll out solar array -->
+	<!-- Original: roll out solar array -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="CO_SolarArrayGenerator"]/label</xpath>
 		<value>
-			<label>roll-out solar array</label>
+			<label>compact solar array</label>
 		</value>
 	</Operation>
 
-	<!-- roll out solar panel -->
+	<!-- Original: roll out solar panel -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="CO_SolarArrayPanel"]/label</xpath>
 		<value>
-			<label>roll-out solar panel</label>
+			<label>compact solar panel</label>
 		</value>
 	</Operation>
 
-	<!-- vac double door -->
+	<!-- Original: vac double door -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="CO_VacDoorDouble"]/label</xpath>
@@ -28,7 +31,8 @@
 		</value>
 	</Operation>
 
-	<!-- vac triple door -->
+	<!-- Original: vac triple door -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="CO_VacDoorTriple"]/label</xpath>
@@ -37,7 +41,8 @@
 		</value>
 	</Operation>
 
-	<!-- vac barrier projector on wall -->
+	<!-- Original: vac barrier projector on wall -->
+	<!-- Style edit, shorter -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="CO_VacBarrierProjectorWall"]/label</xpath>
@@ -46,7 +51,8 @@
 		</value>
 	</Operation>
 
-	<!-- terrain scanner -->
+	<!-- Original: terrain scanner -->
+	<!-- More specific and descriptive name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="CO_TerrainScanner"]/label</xpath>

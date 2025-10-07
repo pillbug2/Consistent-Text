@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>          
 
-    <!-- Herona Wardrobe -->
+    <!-- Original: Herona Wardrobe -->
+	<!-- Capitalization -->
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs/ThingDef[defName="RRHeronaWardrobe"]/label</xpath>
@@ -10,7 +11,8 @@
         </value>
     </Operation>
 
-	<!-- Taragona Wardrobe -->
+	<!-- Original: Taragona Wardrobe -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRTaragonaWardrobe"]/label</xpath>
@@ -19,7 +21,8 @@
 		</value>
 	</Operation>
 
-	<!-- Saragosa Dresser -->
+	<!-- Original: Saragosa Dresser -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRDresser"]/label</xpath>
@@ -28,7 +31,8 @@
 		</value>
 	</Operation>
 
-	<!-- Albus Dresser -->
+	<!-- Original: Albus Dresser -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRDresserTwo"]/label</xpath>
@@ -37,7 +41,8 @@
 		</value>
 	</Operation>
 
-	<!-- senevan single bed -->
+	<!-- Original: senevan single bed -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRMidModernSingleBed"]/label</xpath>
@@ -46,7 +51,8 @@
 		</value>
 	</Operation>
 
-	<!-- senevan double bed -->
+	<!-- Original: senevan double bed -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRMidModernDoubleBed"]/label</xpath>
@@ -55,7 +61,8 @@
 		</value>
 	</Operation>
 
-	<!-- Valencia Royal double bed -->
+	<!-- Original: Valencia Royal double bed -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRRoyalBed"]/label</xpath>
@@ -64,7 +71,8 @@
 		</value>
 	</Operation>
 
-	<!-- Meina Crib -->
+	<!-- Original: Meina Crib -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRCrib"]/label</xpath>
@@ -73,7 +81,8 @@
 		</value>
 	</Operation>
 
-	<!-- Nante Office Chair -->
+	<!-- Original: Nante Office Chair -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRNanteOfficeChair"]/label</xpath>
@@ -82,7 +91,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ruen Office Chair -->
+	<!-- Original: Ruen Office Chair -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRRuenOfficeChair"]/label</xpath>
@@ -91,7 +101,8 @@
 		</value>
 	</Operation>
 
-	<!-- Marsile Couch -->
+	<!-- Original: Marsile Couch -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRMarsileSofa"]/label</xpath>
@@ -100,7 +111,8 @@
 		</value>
 	</Operation>
 
-	<!-- Tulen Couch -->
+	<!-- Original: Tulen Couch -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRTulenSofa"]/label</xpath>
@@ -109,7 +121,8 @@
 		</value>
 	</Operation>
 
-	<!-- Amien Couch -->
+	<!-- Original: Amien Couch -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRAmienSofa"]/label</xpath>
@@ -118,7 +131,8 @@
 		</value>
 	</Operation>
 
-	<!-- Maharid Cupboard -->
+	<!-- Original: Maharid Cupboard -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRCupboard"]/label</xpath>
@@ -127,7 +141,8 @@
 		</value>
 	</Operation>
 
-	<!-- Sevia Cupboard -->
+	<!-- Original: Sevia Cupboard -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRCupboardTwo"]/label</xpath>
@@ -136,7 +151,8 @@
 		</value>
 	</Operation>
 
-	<!-- Haen Bookshelf -->
+	<!-- Original: Haen Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRBookshelfOne"]/label</xpath>
@@ -145,7 +161,8 @@
 		</value>
 	</Operation>
 
-	<!-- Teruel Cupboard -->
+	<!-- Original: Teruel Cupboard -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRCupboardThree"]/label</xpath>
@@ -154,7 +171,8 @@
 		</value>
 	</Operation>
 
-	<!-- Erdin Desk -->
+	<!-- Original: Erdin Desk -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRDesk"]/label</xpath>
@@ -163,7 +181,8 @@
 		</value>
 	</Operation>
 
-	<!-- Rosenheim desk -->
+	<!-- Original: Rosenheim desk -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RROfficeDesk"]/label</xpath>
@@ -172,7 +191,8 @@
 		</value>
 	</Operation>
 
-	<!-- Rottenburg Desk -->
+	<!-- Original: Rottenburg Desk -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRStreamlineDesk"]/label</xpath>
@@ -181,7 +201,8 @@
 		</value>
 	</Operation>
 
-	<!-- Barsawa Table Lamp -->
+	<!-- Original: Barsawa Table Lamp -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRTableLamp"]/label</xpath>
@@ -190,7 +211,8 @@
 		</value>
 	</Operation>
 
-	<!-- Katovise Desk Lamp -->
+	<!-- Original: Katovise Desk Lamp -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRDeskLamp"]/label</xpath>
@@ -199,7 +221,8 @@
 		</value>
 	</Operation>
 
-	<!-- Vielsco Standing lamp -->
+	<!-- Original: Vielsco Standing lamp -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRStandingLamp"]/label</xpath>
@@ -208,7 +231,8 @@
 		</value>
 	</Operation>
 
-	<!-- Glivize Standing lamp -->
+	<!-- Original: Glivize Standing lamp -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRStandingLampTwo"]/label</xpath>
@@ -217,7 +241,8 @@
 		</value>
 	</Operation>
 
-	<!-- Mishkub Standing Lamp -->
+	<!-- Original: Mishkub Standing Lamp -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRStandingLampThree"]/label</xpath>
@@ -226,7 +251,8 @@
 		</value>
 	</Operation>
 
-	<!-- Tahov Dining Table(1x2) -->
+	<!-- Original: Tahov Dining Table(1x2) -->
+	<!-- Capitalization, grammar -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRDiningTable"]/label</xpath>
@@ -235,7 +261,8 @@
 		</value>
 	</Operation>
 
-	<!-- Klatobi Dining Table(2x2) -->
+	<!-- Original: Klatobi Dining Table(2x2) -->
+	<!-- Capitalization, grammar -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRDiningTableTwo"]/label</xpath>
@@ -244,7 +271,8 @@
 		</value>
 	</Operation>
 
-	<!-- Esenik Dining Table(1x2) -->
+	<!-- Original: Esenik Dining Table(1x2) -->
+	<!-- Capitalization, grammar -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="RRDiningTableThree"]/label</xpath>

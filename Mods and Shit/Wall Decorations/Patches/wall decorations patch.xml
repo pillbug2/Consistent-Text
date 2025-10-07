@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>          
 
-	<!-- Wall toiletpaper -->
+	<!-- Original: Wall toiletpaper -->
+	<!-- Shorter name, typo fix -->
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs/ThingDef[defName="ucp_toiletpaper"]/label</xpath>
@@ -10,7 +11,8 @@
         </value>
     </Operation>
 
-	<!-- Wall mirror (light) -->
+	<!-- Original: Wall mirror (light) -->
+	<!-- More readable name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_mirrorlight"]/label</xpath>
@@ -19,7 +21,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ivy Leaves -->
+	<!-- Original: Ivy Leaves -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleaves"]/label</xpath>
@@ -28,7 +31,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ivy Leaves (corner) -->
+	<!-- Original: Ivy Leaves (corner) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavescorner"]/label</xpath>
@@ -37,7 +41,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ivy Leaves (inner) -->
+	<!-- Original: Ivy Leaves (inner) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavesinner"]/label</xpath>
@@ -46,7 +51,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ivy Leaves (Pattern A) -->
+	<!-- Original: Ivy Leaves (Pattern A) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternA"]/label</xpath>
@@ -55,7 +61,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ivy Leaves (Pattern B) -->
+	<!-- Original: Ivy Leaves (Pattern B) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternB"]/label</xpath>
@@ -64,7 +71,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ivy Leaves (Pattern C) -->
+	<!-- Original: Ivy Leaves (Pattern C) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternC"]/label</xpath>
@@ -73,7 +81,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ivy Leaves (Pattern D) -->
+	<!-- Original: Ivy Leaves (Pattern D) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternD"]/label</xpath>
@@ -82,7 +91,8 @@
 		</value>
 	</Operation>
 
-	<!-- Gauranlen Leaves -->
+	<!-- Original: Gauranlen Leaves -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavesorange"]/label</xpath>
@@ -91,7 +101,8 @@
 		</value>
 	</Operation>
 
-	<!-- Gauranlen Leaves (corner) -->
+	<!-- Original: Gauranlen Leaves (corner) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavescornerorange"]/label</xpath>
@@ -100,7 +111,8 @@
 		</value>
 	</Operation>
 
-	<!-- Gauranlen Leaves (inner) -->
+	<!-- Original: Gauranlen Leaves (inner) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavesinnerorange"]/label</xpath>
@@ -109,7 +121,8 @@
 		</value>
 	</Operation>
 
-	<!-- Gauranlen Leaves (Pattern A) -->
+	<!-- Original: Gauranlen Leaves (Pattern A) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternAorange"]/label</xpath>
@@ -118,7 +131,8 @@
 		</value>
 	</Operation>
 
-	<!-- Gauranlen Leaves (Pattern B) -->
+	<!-- Original: Gauranlen Leaves (Pattern B) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternBorange"]/label</xpath>
@@ -127,7 +141,8 @@
 		</value>
 	</Operation>
 
-	<!-- Gauranlen Leaves (Pattern C) -->
+	<!-- Original: Gauranlen Leaves (Pattern C) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternCorange"]/label</xpath>
@@ -136,7 +151,8 @@
 		</value>
 	</Operation>
 
-	<!-- Gauranlen Leaves (Pattern D) -->
+	<!-- Original: Gauranlen Leaves (Pattern D) -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_ivyleavespatternDorange"]/label</xpath>
@@ -145,7 +161,8 @@
 		</value>
 	</Operation>
 
-	<!-- Corkboard -->
+	<!-- Original: Corkboard -->
+	<!-- Common spelling edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ucp_corkboard"]/label</xpath>

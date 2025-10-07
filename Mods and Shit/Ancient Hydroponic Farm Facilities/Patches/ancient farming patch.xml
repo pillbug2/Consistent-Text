@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>          
 <Patch>
 
-	<!-- Nutrient Solution PipeSystem -->
+	<!-- Original: Nutrient Solution PipeSystem -->
+	<!-- Immersive rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/DesignationCategoryDef[defName="NutrientSolutionPipeSystem"]/label</xpath>
@@ -10,7 +11,8 @@
 		</value>
 	</Operation>
 
-	<!-- underground Nutrient pipe -->
+	<!-- Original: underground Nutrient pipe -->
+	<!-- Vanilla edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMo_NutrientPipeUnderground"]/label</xpath>
@@ -19,25 +21,28 @@
 		</value>
 	</Operation>
 
-	<!-- SurvivalNutrientPack Crate -->
+	<!-- Original: SurvivalNutrientPack Crate -->
+	<!-- Immersive rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="SurvivalNutrientPackCrateA"]/label</xpath>
 		<value>
-			<label>nutrient paste survival pack crate</label>
+			<label>nutrient paste survival crate</label>
 		</value>
 	</Operation>
 
-	<!-- SurvivalNutrientPack Crate -->
+	<!-- Original: SurvivalNutrientPack Crate -->
+	<!-- Immersive rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="SurvivalNutrientPackCrateB"]/label</xpath>
 		<value>
-			<label>nutrient paste survival pack crate</label>
+			<label>nutrient paste survival crate</label>
 		</value>
 	</Operation>
 
-	<!-- Nutrient solution Crate -->
+	<!-- Original: Nutrient solution Crate -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="NutrientSolutionCrate"]/label</xpath>
@@ -46,7 +51,8 @@
 		</value>
 	</Operation>
 
-	<!-- Cloths Crate -->
+	<!-- Original: Cloths Crate -->
+	<!-- Capitalization, grammar -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ClothCrate"]/label</xpath>
@@ -55,7 +61,8 @@
 		</value>
 	</Operation>
 
-	<!-- Devilstrand Crate -->
+	<!-- Original: Devilstrand Crate -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DevilstrandCrate"]/label</xpath>
@@ -64,7 +71,8 @@
 		</value>
 	</Operation>
 
-	<!-- Survival nutrient pastes pack -->
+	<!-- Original: Survival nutrient pastes pack -->
+	<!-- More readable name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="SurvivalNutrientPack"]/label</xpath>
@@ -73,7 +81,8 @@
 		</value>
 	</Operation>
 
-	<!-- Damaged Ancient hydroponics -->
+	<!-- Original: Damaged Ancient hydroponics -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DamagedHydro"]/label</xpath>
@@ -82,7 +91,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Dual HydroponicsBasin -->
+	<!-- Original: Ancient Dual HydroponicsBasin -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AncientDualHydroponicsBasin"]/label</xpath>
@@ -91,7 +101,8 @@
 		</value>
 	</Operation>
 
-	<!-- Damaged Sun lamp -->
+	<!-- Original: Damaged Sun lamp -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DamagedSunlamp"]/label</xpath>

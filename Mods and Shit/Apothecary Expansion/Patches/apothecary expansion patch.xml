@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>          
 <Patch>    
 	
-	<!-- Basic Apothecary Table -->
+	<!-- Original: Basic Apothecary Table -->
+	<!-- Capitalization, immersive rename -->
     <Operation Class="PatchOperationReplace">
 		<success>Always</success>
         <xpath>Defs/ThingDef[defName="Untamo_AYApothecaryTable_Basic"]/label</xpath>
@@ -10,7 +11,8 @@
         </value>
     </Operation>
 
-	<!-- Intermediate Apothecary Table -->
+	<!-- Original: Intermediate Apothecary Table -->
+	<!-- Capitalization, immersive rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Untamo_AYApothecaryTable_Intermediate"]/label</xpath>
@@ -19,7 +21,8 @@
 		</value>
 	</Operation>
 
-	<!-- Advanced Apothecary Table -->
+	<!-- Original: Advanced Apothecary Table -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Untamo_AYApothecaryTable_Advanced"]/label</xpath>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>          
 <Patch>    
 	
-	<!-- Tunnel Boring Machine -->
+	<!-- Original: Tunnel Boring Machine -->
+	<!-- Capitalization -->
     <Operation Class="PatchOperationReplace">
 		<success>Always</success>
         <xpath>Defs/ThingDef[defName="BreadMoAM_TunnelBoringMachine"]/label</xpath>
@@ -10,7 +11,8 @@
         </value>
     </Operation>
 
-	<!-- Electrical Appliances -->
+	<!-- Original: Electrical Appliances -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_ElectricalEquipment"]/label</xpath>
@@ -19,7 +21,8 @@
 		</value>
 	</Operation>
 
-	<!-- Mineral Conveyor -->
+	<!-- Original: Mineral Conveyor -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_MineralConveyor"]/label</xpath>
@@ -28,7 +31,8 @@
 		</value>
 	</Operation>
 
-	<!-- Tunnel Structural Support -->
+	<!-- Original: Tunnel Structural Support -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_TunnelStructuralSupport_a"]/label</xpath>
@@ -37,7 +41,8 @@
 		</value>
 	</Operation>
 
-	<!-- Tunnel Structural Support -->
+	<!-- Original: Tunnel Structural Support -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_TunnelStructuralSupport_b"]/label</xpath>
@@ -46,7 +51,8 @@
 		</value>
 	</Operation>
 
-	<!-- Mineral Outlet -->
+	<!-- Original: Mineral Outlet -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_MineralExports"]/label</xpath>
@@ -55,7 +61,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ore Dressing Machine -->
+	<!-- Original: Ore Dressing Machine -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_OreDressingMachine"]/label</xpath>
@@ -64,7 +71,8 @@
 		</value>
 	</Operation>
 
-	<!-- Automatic Drilling Rig -->
+	<!-- Original: Automatic Drilling Rig -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AutomaticDrillingRig"]/label</xpath>
@@ -73,7 +81,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Mud Carriage -->
+	<!-- Original: Ancient Mud Carriage -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMudCarriage"]/label</xpath>
@@ -82,7 +91,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Steel Mining Car -->
+	<!-- Original: Ancient Steel Mining Car -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientSteelMiningCars"]/label</xpath>
@@ -91,7 +101,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Uranium Mining Car -->
+	<!-- Original: Ancient Uranium Mining Car -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientUraniumMiningCars"]/label</xpath>
@@ -100,7 +111,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Plasteel Mining Car -->
+	<!-- Original: Ancient Plasteel Mining Car -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientPlasteelMiningCars"]/label</xpath>
@@ -109,7 +121,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Empty Mining Car -->
+	<!-- Original: Ancient Empty Mining Car -->
+	<!-- Capitalization, shorter name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientEmptyMiningCar"]/label</xpath>
@@ -118,7 +131,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Rock Mining Car -->
+	<!-- Original: Ancient Rock Mining Car -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientRockMiningCar"]/label</xpath>
@@ -127,7 +141,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Indoor Fire Hydrants -->
+	<!-- Original: Ancient Indoor Fire Hydrants -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientIndoorFireHydrants"]/label</xpath>
@@ -136,7 +151,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Barrier Gate -->
+	<!-- Original: Ancient Barrier Gate -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientBarrierGate"]/label</xpath>
@@ -145,7 +161,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Truck Compartment -->
+	<!-- Original: Ancient Truck Compartment -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTruckCompartment"]/label</xpath>
@@ -154,7 +171,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Semi Trailer -->
+	<!-- Original: Ancient Semi Trailer -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientSemiTrailer"]/label</xpath>
@@ -163,7 +181,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Rusted Truck -->
+	<!-- Original: Ancient Rusted Truck -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientRustedTruck"]/label</xpath>
@@ -172,7 +191,8 @@
 		</value>
 	</Operation>
 
-	<!-- Warning Board -->
+	<!-- Original: Warning Board -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_WarningBoard"]/label</xpath>
@@ -181,7 +201,8 @@
 		</value>
 	</Operation>
 
-	<!-- Discarded Radiation Suit -->
+	<!-- Original: Discarded Radiation Suit -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_DiscardedRadiationSuit"]/label</xpath>
@@ -190,7 +211,8 @@
 		</value>
 	</Operation>
 
-	<!-- Pick Axe -->
+	<!-- Original: Pick Axe -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_PickAxe"]/label</xpath>
@@ -199,7 +221,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Broken Turret -->
+	<!-- Original: Ancient Broken Turret -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientBrokenTurret"]/label</xpath>
@@ -208,34 +231,38 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Mini Shotgun Turret -->
+	<!-- Original: Ancient Mini Shotgun Turret -->
+	<!-- Capitalization, style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_Turret_ShotgunTurret"]/label</xpath>
 		<value>
-			<label>ancient shotgun mini-turret</label>
+			<label>ancient shotgun mini turret</label>
 		</value>
 	</Operation>
 
-	<!-- Mini Shotgun Turret -->
+	<!-- Original: Mini Shotgun Turret -->
+	<!-- Capitalization, style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_Turret_ShotgunTurretN"]/label</xpath>
 		<value>
-			<label>shotgun mini-turret</label>
+			<label>shotgun mini turret</label>
 		</value>
 	</Operation>
 
-	<!-- Large Caliber Shotgun Turret -->
+	<!-- Original: Large Caliber Shotgun Turret -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_Turret_LargeShotgun"]/label</xpath>
 		<value>
-			<label>large-caliber shotgun turret</label>
+			<label>large caliber shotgun turret</label>
 		</value>
 	</Operation>
 
-	<!-- Ancient Tunnel Boring Machine -->
+	<!-- Original: Ancient Tunnel Boring Machine -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelBoringMachine"]/label</xpath>
@@ -244,7 +271,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Electrical Appliances -->
+	<!-- Original: Ancient Electrical Appliances -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientElectricalEquipment"]/label</xpath>
@@ -253,7 +281,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Mineral Conveyor -->
+	<!-- Original: Ancient Mineral Conveyor -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMineralConveyor"]/label</xpath>
@@ -262,7 +291,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Structural Support -->
+	<!-- Original: Ancient Structural Support -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_a"]/label</xpath>
@@ -271,7 +301,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Structural Support -->
+	<!-- Original: Ancient Structural Support -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_b"]/label</xpath>
@@ -280,7 +311,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Structural Support -->
+	<!-- Original: Ancient Structural Support -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientTunnelStructuralSupport_c"]/label</xpath>
@@ -289,7 +321,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Mineral Outlet -->
+	<!-- Original: Ancient Mineral Outlet -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientMineralExports"]/label</xpath>
@@ -298,7 +331,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Ore Dressing Machine -->
+	<!-- Original: Ancient Ore Dressing Machine -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientOreDressingMachine"]/label</xpath>
@@ -307,7 +341,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Automatic Drilling Rig -->
+	<!-- Original: Ancient Automatic Drilling Rig -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientAutomaticDrillingRig"]/label</xpath>
@@ -316,7 +351,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Giant Rock Excavator Chassis -->
+	<!-- Original: Ancient Giant Rock Excavator Chassis -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientGiantRockExcavator"]/label</xpath>
@@ -325,7 +361,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Excavator Power System -->
+	<!-- Original: Ancient Excavator Power System -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientExcavatorPowerFacilities"]/label</xpath>
@@ -334,7 +371,8 @@
 		</value>
 	</Operation>
 
-	<!-- Ancient Excavator Bucket Wheel -->
+	<!-- Original: Ancient Excavator Bucket Wheel -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BreadMoAM_AncientExcavatorBucketWheel"]/label</xpath>

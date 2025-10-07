@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- cold fusion generator cabin -->
+	<!-- Original: cold fusion generator cabin -->
+	<!-- Rename in line with description and vanilla, shorter name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ShipWallSmallColdNnclearGeneratorCabin"]/label</xpath>
@@ -10,7 +11,8 @@
 		</value>
 	</Operation>
 
-	<!-- wall battery cabin -->
+	<!-- Original: wall battery cabin -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ShipWallBatteryCabin"]/label</xpath>
@@ -19,7 +21,8 @@
 		</value>
 	</Operation>
 
-	<!-- fuel tank cabin -->
+	<!-- Original: fuel tank cabin -->
+	<!-- More specific name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ShipWallFuelTankCabin"]/label</xpath>
@@ -28,16 +31,18 @@
 		</value>
 	</Operation>
 
-	<!-- chemfuel power generator cabin -->
+	<!-- Original: chemfuel power generator cabin -->
+	<!-- Grammar fix -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ShipWallChemfuelPoweredGeneratorCabin"]/label</xpath>
 		<value>
-			<label>chemfuel generator cabin</label>
+			<label>chemfuel powered generator cabin</label>
 		</value>
 	</Operation>
 	
-	<!-- standard Storage cabin -->
+	<!-- Original: standard Storage cabin -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="SW_AdaptiveRegularStorageCabin"]/label</xpath>
@@ -46,7 +51,8 @@
 		</value>
 	</Operation>
 
-	<!-- glass storage cabin -->
+	<!-- Original: glass storage cabin -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="SW_AdaptiveGlassStorageCabin"]/label</xpath>
@@ -55,7 +61,8 @@
 		</value>
 	</Operation>
 
-	<!-- fridge storage cabin -->
+	<!-- Original: fridge storage cabin -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="SW_AdaptiveFridgeStorageCabin"]/label</xpath>
@@ -64,7 +71,8 @@
 		</value>
 	</Operation>
 
-	<!-- mount mini solar panel -->
+	<!-- Original: mount mini solar panel -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ShipWallMountMiniSolarPanel"]/label</xpath>
@@ -73,7 +81,8 @@
 		</value>
 	</Operation>
 
-	<!-- mount battery small unit -->
+	<!-- Original: mount battery small unit -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ShipWallMountBatteryUnit"]/label</xpath>
@@ -82,12 +91,13 @@
 		</value>
 	</Operation>
 
-	<!-- mount mini turret -->
+	<!-- Original: mount mini turret -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ShipWallMountMiniTurret"]/label</xpath>
 		<value>
-			<label>wall mini-turret</label>
+			<label>wall mini turret</label>
 		</value>
 	</Operation>
 

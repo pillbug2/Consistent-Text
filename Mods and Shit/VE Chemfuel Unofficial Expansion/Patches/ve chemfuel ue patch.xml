@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+	<!-- Original: Raw Plasteel Refinery -->
+	<!-- Capitalization -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="VCEUE_RawPlasteelRefinery"]/label</xpath>
+        <value>
+            <label>raw plasteel refinery</label>
+        </value>
+    </Operation>
+
+	<!-- Original: Advanced Automatic Weavery -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCEUE_AdvancedAutoWeavery"]/label</xpath>
+		<value>
+			<label>advanced automatic weavery</label>
+		</value>
+	</Operation>
+
+	<!-- Original: subterranean Dye pipe -->
+	<!-- Capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VCEUE_UndergroundDyePipe"]/label</xpath>
+		<value>
+			<label>subterranean dye pipe</label>
+		</value>
+	</Operation>
+
+</Patch>

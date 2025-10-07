@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- Replimat Terminal -->
+	<!-- Original: Replimat Terminal -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReplimatTerminal"]/label</xpath>
@@ -10,7 +11,8 @@
 		</value>
 	</Operation>
 
-	<!-- Replimat Wall Terminal -->
+	<!-- Original: Replimat Wall Terminal -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReplimatTerminalWall"]/label</xpath>
@@ -19,7 +21,8 @@
 		</value>
 	</Operation>
 
-	<!-- Replimat Animal Feeder -->
+	<!-- Original: Replimat Animal Feeder -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReplimatAnimalFeeder"]/label</xpath>
@@ -28,7 +31,8 @@
 		</value>
 	</Operation>
 
-	<!-- Replimat Feedstock Tank -->
+	<!-- Original: Replimat Feedstock Tank -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReplimatFeedTank"]/label</xpath>
@@ -37,7 +41,8 @@
 		</value>
 	</Operation>
 
-	<!-- Replimat Large Feedstock Tank -->
+	<!-- Original: Replimat Large Feedstock Tank -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReplimatFeedTankLarge"]/label</xpath>
@@ -46,7 +51,8 @@
 		</value>
 	</Operation>
 
-	<!-- Replimat Hopper -->
+	<!-- Original: Replimat Hopper -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReplimatHopper"]/label</xpath>
@@ -55,7 +61,8 @@
 		</value>
 	</Operation>
 
-	<!-- Replimat Cadaver Processor -->
+	<!-- Original: Replimat Cadaver Processor -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReplimatCorpseRecycler"]/label</xpath>
@@ -64,7 +71,8 @@
 		</value>
 	</Operation>
 
-	<!-- Replimat Computer -->
+	<!-- Original: Replimat Computer -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ReplimatComputer"]/label</xpath>

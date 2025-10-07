@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>          
 
-    <!-- Towel Rail -->
+    <!-- Original: Towel Rail -->
+	<!-- Capitalization -->
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs/ThingDef[defName="RadiatorTowelRail"]/label</xpath>
@@ -10,7 +11,8 @@
         </value>
     </Operation>
 
-	<!-- ceiling fan 2x2 -->
+	<!-- Original: ceiling fan 2x2 -->
+	<!-- Vanilla edit like tables -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="CeilingFan"]/label</xpath>
@@ -19,7 +21,8 @@
 		</value>
 	</Operation>
 
-	<!-- ceiling fan 1x1 -->
+	<!-- Original: ceiling fan 1x1 -->
+	<!-- Vanilla edit like tables -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="CeilingFanS"]/label</xpath>
@@ -28,16 +31,18 @@
 		</value>
 	</Operation>
 
-	<!-- huge water tower -->
+	<!-- Original: huge water tower -->
+	<!-- Consistent progression with water tower building -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="WaterTowerL"]/label</xpath>
 		<value>
-			<label>water tower (large)</label>
+			<label>large water tower</label>
 		</value>
 	</Operation>
 
-	<!-- sewage treatment -->
+	<!-- Original: sewage treatment -->
+	<!-- Incomplete label -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="SewageTreatment"]/label</xpath>
@@ -46,7 +51,8 @@
 		</value>
 	</Operation>
 
-	<!-- water treatment -->
+	<!-- Original: water treatment -->
+	<!-- Incomplete label -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="WaterTreatment"]/label</xpath>
@@ -55,7 +61,8 @@
 		</value>
 	</Operation>
 
-	<!-- sewage dump port -->
+	<!-- Original: sewage dump port -->
+	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="SewageDumpPort"]/label</xpath>
@@ -64,7 +71,8 @@
 		</value>
 	</Operation>
 
-	<!-- Fueled Sauna Heater -->
+	<!-- Original: Fueled Sauna Heater -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DBHSaunaHeaterLog"]/label</xpath>
@@ -73,7 +81,8 @@
 		</value>
 	</Operation>
 
-	<!-- Electric Sauna Heater -->
+	<!-- Original: Electric Sauna Heater -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DBHSaunaHeaterElec"]/label</xpath>
@@ -82,7 +91,8 @@
 		</value>
 	</Operation>
 
-	<!-- Sauna seating -->
+	<!-- Original: Sauna seating -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DBHSaunaSeating"]/label</xpath>
@@ -91,7 +101,8 @@
 		</value>
 	</Operation>
 
-	<!-- Water Trough -->
+	<!-- Original: Water Trough -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="WaterTrough"]/label</xpath>
@@ -100,7 +111,8 @@
 		</value>
 	</Operation>
 
-	<!-- Water Bowl -->
+	<!-- Original: Water Bowl -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="PetWaterBowl"]/label</xpath>
@@ -109,7 +121,8 @@
 		</value>
 	</Operation>
 
-	<!-- Bath Mat -->
+	<!-- Original: Bath Mat -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="BathMat"]/label</xpath>
@@ -118,7 +131,8 @@
 		</value>
 	</Operation>
 
-	<!-- plumbing (hidden) -->
+	<!-- Original: plumbing (hidden) -->
+	<!-- Vanilla rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="sewagePipeHidden"]/label</xpath>
@@ -127,7 +141,8 @@
 		</value>
 	</Operation>
 
-	<!-- air-con pipe -->
+	<!-- Original: air-con pipe -->
+	<!-- More descriptive name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="airPipe"]/label</xpath>
@@ -136,7 +151,8 @@
 		</value>
 	</Operation>
 
-	<!-- air-con pipe (hidden) -->
+	<!-- Original: air-con pipe (hidden) -->
+	<!-- Vanilla rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="airPipeHidden"]/label</xpath>

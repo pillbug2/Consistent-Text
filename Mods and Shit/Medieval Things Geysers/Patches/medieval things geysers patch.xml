@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>          
 <Patch>   
 	
-	<!-- Geyser Core -->
+	<!-- Original: Geyser Core -->
+	<!-- Capitalization -->
     <Operation Class="PatchOperationReplace">
 		<success>Always</success>
         <xpath>Defs/ThingDef[defName="MThingsGeysersCore"]/label</xpath>
@@ -10,7 +11,8 @@
         </value>
     </Operation>
 
-	<!-- Magicyte Harvester -->
+	<!-- Original: Magicyte Harvester -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="MThingsGeysersMagicyteHarvester"]/label</xpath>

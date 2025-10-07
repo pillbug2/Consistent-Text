@@ -2,6 +2,7 @@
 <Patch>
 	
 	<!-- Psychic Workbench -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="PTPsychicWorkbench"]/label</xpath>
@@ -11,6 +12,7 @@
 	</Operation>
 
 	<!-- Psychic Trainer -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="PTPsychicTraier"]/label</xpath>
@@ -20,6 +22,7 @@
 	</Operation>
 
 	<!-- Psychic Suppression Field Projector -->
+	<!-- Capitalization, shorter -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="PTPsychicSuppressionFieldProjector"]/label</xpath>

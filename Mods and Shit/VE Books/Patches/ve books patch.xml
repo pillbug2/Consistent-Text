@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	
-	<!-- writers table -->
+	<!-- Original: writers table -->
+	<!-- Grammar, desk is more evocative and specific to writing -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="VBE_WritersTable"]/label</xpath>
 		<value>
-			<label>writers desk</label>
+			<label>writer's desk</label>
 		</value>
 	</Operation>
 	

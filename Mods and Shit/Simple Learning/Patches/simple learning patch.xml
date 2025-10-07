@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	
-	<!-- Neolithic Desk -->
+	<!-- Original: Neolithic Desk -->
+	<!-- Capitalization, immersive rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Neo_Learning_Desk"]/label</xpath>
@@ -10,7 +11,8 @@
 		</value>
 	</Operation>
 
-	<!-- Regular Desk -->
+	<!-- Original: Regular Desk -->
+	<!-- Capitalization, immersive rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Mid_Learning_Desk"]/label</xpath>
@@ -19,16 +21,18 @@
 		</value>
 	</Operation>
 
-	<!-- Advanced Desk -->
+	<!-- Original: Advanced Desk -->
+	<!-- Immersive rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Adv_Learning_Desk"]/label</xpath>
 		<value>
-			<label>computer desk</label>
+			<label>learning terminal</label>
 		</value>
 	</Operation>
 
-	<!-- Spacer Desk -->
+	<!-- Original: Spacer Desk -->
+	<!-- Capitalization, vanilla rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Spacer_Learning_Desk"]/label</xpath>
@@ -37,7 +41,8 @@
 		</value>
 	</Operation>
 
-	<!-- Neolithic Stone -->
+	<!-- Original: Neolithic Stone -->
+	<!-- More immersive name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Neo_Board"]/label</xpath>
@@ -46,7 +51,8 @@
 		</value>
 	</Operation>
 
-	<!-- Chalk Board -->
+	<!-- Original: Chalk Board -->
+	<!-- Capitalization, common spelling rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Board"]/label</xpath>
@@ -55,7 +61,8 @@
 		</value>
 	</Operation>
 
-	<!-- Spacer Board -->
+	<!-- Original: Spacer Board -->
+	<!-- Capitalization, vanilla rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Spacer_Board"]/label</xpath>
@@ -64,7 +71,8 @@
 		</value>
 	</Operation>
 
-	<!-- Spacer Bookshelf -->
+	<!-- Original: Spacer Bookshelf -->
+	<!-- Capitalization, vanilla rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Spacer_Joy_Bookshelf"]/label</xpath>
@@ -73,7 +81,8 @@
 		</value>
 	</Operation>
 
-	<!-- Joy Bookshelf -->
+	<!-- Original: Joy Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Joy_Bookshelf"]/label</xpath>
@@ -82,7 +91,8 @@
 		</value>
 	</Operation>
 
-	<!-- Shooting Bookshelf -->
+	<!-- Original: Shooting Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Shooting_Bookshelf"]/label</xpath>
@@ -91,7 +101,8 @@
 		</value>
 	</Operation>
 
-	<!-- Melee Bookshelf -->
+	<!-- Original: Melee Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Melee_Bookshelf"]/label</xpath>
@@ -100,7 +111,8 @@
 		</value>
 	</Operation>
 
-	<!-- Construction Bookshelf -->
+	<!-- Original: Construction Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Construct_Bookshelf"]/label</xpath>
@@ -109,7 +121,8 @@
 		</value>
 	</Operation>
 
-	<!-- Mining Bookshelf -->
+	<!-- Original: Mining Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Mining_Bookshelf"]/label</xpath>
@@ -118,7 +131,8 @@
 		</value>
 	</Operation>
 
-	<!-- Cooking Bookshelf -->
+	<!-- Original: Cooking Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Cooking_Bookshelf"]/label</xpath>
@@ -127,7 +141,8 @@
 		</value>
 	</Operation>
 
-	<!-- Plants Bookshelf -->
+	<!-- Original: Plants Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Plants_Bookshelf"]/label</xpath>
@@ -136,7 +151,8 @@
 		</value>
 	</Operation>
 
-	<!-- Animals Bookshelf -->
+	<!-- Original: Animals Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Animals_Bookshelf"]/label</xpath>
@@ -145,7 +161,8 @@
 		</value>
 	</Operation>
 
-	<!-- Crafting Bookshelf -->
+	<!-- Original: Crafting Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Crafting_Bookshelf"]/label</xpath>
@@ -154,7 +171,8 @@
 		</value>
 	</Operation>
 
-	<!-- Art Bookshelf -->
+	<!-- Original: Art Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Art_Bookshelf"]/label</xpath>
@@ -163,7 +181,8 @@
 		</value>
 	</Operation>
 
-	<!-- Medicine Bookshelf -->
+	<!-- Original: Medicine Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Medicine_Bookshelf"]/label</xpath>
@@ -172,7 +191,8 @@
 		</value>
 	</Operation>
 
-	<!-- Social Bookshelf -->
+	<!-- Original: Social Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Social_Bookshelf"]/label</xpath>
@@ -181,7 +201,8 @@
 		</value>
 	</Operation>
 
-	<!-- Intellectual Bookshelf -->
+	<!-- Original: Intellectual Bookshelf -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Intellectual_Bookshelf"]/label</xpath>
@@ -190,7 +211,8 @@
 		</value>
 	</Operation>
 
-	<!-- Library table -->
+	<!-- Original: Library table -->
+	<!-- Functional rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Library_Table"]/label</xpath>
@@ -199,31 +221,23 @@
 		</value>
 	</Operation>
 	
-	<!-- TODO Label collision with VE Books! -->
-	<!-- Author Desk -->
+	<!-- Original: Author Desk -->
+	<!-- Capitalization, avoid collision with VE Books -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AuthorDesk"]/label</xpath>
 		<value>
-			<label>writers desk</label>
+			<label>authoring desk</label>
 		</value>
 	</Operation>
 
-	<!-- Printing Press -->
+	<!-- Original: Printing Press -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Printing_Press"]/label</xpath>
 		<value>
 			<label>printing press</label>
-		</value>
-	</Operation>
-
-	<!-- Lockers -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="Fox_Lockers"]/label</xpath>
-		<value>
-			<label>student lockers</label>
 		</value>
 	</Operation>
 	

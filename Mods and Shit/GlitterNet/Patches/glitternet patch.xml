@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- GlitterNet Cable -->
+	<!-- Original: GlitterNet Cable -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="GNGlitterNetCable"]/label</xpath>
@@ -10,7 +11,8 @@
 		</value>
 	</Operation>
 
-	<!-- GlitterNet Cable (Hidden) -->
+	<!-- Original: GlitterNet Cable (Hidden) -->
+	<!-- Capitalization, vanilla edit -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="GNGlitterNetCableHidden"]/label</xpath>
@@ -19,7 +21,8 @@
 		</value>
 	</Operation>
 
-	<!-- GlitterNet Hub -->
+	<!-- Original: GlitterNet Hub -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="GNGlitterNetHub"]/label</xpath>
@@ -28,7 +31,8 @@
 		</value>
 	</Operation>
 
-	<!-- Basic GlitterNet Processor -->
+	<!-- Original: Basic GlitterNet Processor -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="GNBasicGlitterNetProcessor"]/label</xpath>
@@ -37,7 +41,8 @@
 		</value>
 	</Operation>
 
-	<!-- Improved GlitterNet Processor -->
+	<!-- Original: Improved GlitterNet Processor -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="GNImprovedGlitterNetProcessor"]/label</xpath>
@@ -46,7 +51,8 @@
 		</value>
 	</Operation>
 
-	<!-- Advanced GlitterNet Processor -->
+	<!-- Original: Advanced GlitterNet Processor -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="GNAdvancedGlitterNetProcessor"]/label</xpath>
@@ -55,7 +61,8 @@
 		</value>
 	</Operation>
 
-	<!-- Specialized Efficiency Processor -->
+	<!-- Original: Specialized Efficiency Processor -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="GNSpecializedEfficiencyProcessor"]/label</xpath>
@@ -64,7 +71,8 @@
 		</value>
 	</Operation>
 
-	<!-- Specialized Overdrive Processor -->
+	<!-- Original: Specialized Overdrive Processor -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="GNSpecializedOverdriveProcessor"]/label</xpath>
@@ -73,7 +81,8 @@
 		</value>
 	</Operation>
 
-	<!-- Specialized Concurrency Processor -->
+	<!-- Original: Specialized Concurrency Processor -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="GNSpecializedConcurrencyProcessor"]/label</xpath>
@@ -82,7 +91,8 @@
 		</value>
 	</Operation>
 
-	<!-- Specialized Overhead Processor -->
+	<!-- Original: Specialized Overhead Processor -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="GNSpecializedOverheadProcessor"]/label</xpath>

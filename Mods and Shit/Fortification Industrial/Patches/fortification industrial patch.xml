@@ -1,61 +1,68 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- Anti Air Gun -->
+	<!-- Original: Anti Air Gun -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_TurretAA"]/label</xpath>
 		<value>
-			<label>anti-air gun</label>
+			<label>anti air gun</label>
 		</value>
 	</Operation>
 
-	<!-- Anti Air cannon -->
+	<!-- Original: Anti Air cannon -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_Gun_TurretAA"]/label</xpath>
 		<value>
-			<label>anti-air cannon</label>
+			<label>anti air cannon</label>
 		</value>
 	</Operation>
 
-	<!-- Quad Anti Air Gun -->
+	<!-- Original: Quad Anti Air Gun -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_TurretQuadAA"]/label</xpath>
 		<value>
-			<label>quad anti-air gun</label>
+			<label>quad anti air gun</label>
 		</value>
 	</Operation>
 
-	<!-- Quad Anti Air cannon -->
+	<!-- Original: Quad Anti Air cannon -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_Gun_TurretQuadAA"]/label</xpath>
 		<value>
-			<label>quad anti-air cannon</label>
+			<label>quad anti air cannon</label>
 		</value>
 	</Operation>
 
-	<!-- Anti Tank Gun -->
+	<!-- Original: Anti Tank Gun -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_TurretAT"]/label</xpath>
 		<value>
-			<label>anti-tank gun</label>
+			<label>anti tank gun</label>
 		</value>
 	</Operation>
 
-	<!-- Anti Tank Cannon -->
+	<!-- Original: Anti Tank Cannon -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_Gun_TurretAT"]/label</xpath>
 		<value>
-			<label>anti-tank cannon</label>
+			<label>anti tank cannon</label>
 		</value>
 	</Operation>
 
-	<!-- Quad Machine gun -->
+	<!-- Original: Quad Machine gun -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_Maxim4M"]/label</xpath>
@@ -64,7 +71,8 @@
 		</value>
 	</Operation>
 
-	<!-- machine gun 4x mounted -->
+	<!-- Original: machine gun 4x mounted -->
+	<!-- Capitalization, more readable name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_Gun_QuadMG"]/label</xpath>
@@ -73,7 +81,8 @@
 		</value>
 	</Operation>
 
-	<!-- Machine Gun Nest -->
+	<!-- Original: Machine Gun Nest -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_Turret_BunkerL"]/label</xpath>
@@ -82,7 +91,8 @@
 		</value>
 	</Operation>
 
-	<!-- Machine Gun Turret Bunker -->
+	<!-- Original: Machine Gun Turret Bunker -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_Turret_BunkerM"]/label</xpath>
@@ -91,7 +101,8 @@
 		</value>
 	</Operation>
 
-	<!-- Machine Gun Bunker -->
+	<!-- Original: Machine Gun Bunker -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_Turret_BunkerC"]/label</xpath>
@@ -100,7 +111,8 @@
 		</value>
 	</Operation>
 
-	<!-- Military Machine Gun Nest -->
+	<!-- Original: Military Machine Gun Nest -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_Turret_BunkerF"]/label</xpath>
@@ -109,16 +121,8 @@
 		</value>
 	</Operation>
 
-	<!-- Military Machine Gun Nest -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="FT_Turret_BunkerF"]/label</xpath>
-		<value>
-			<label></label>
-		</value>
-	</Operation>
-
-	<!-- Hexagonal Mortar Launcher -->
+	<!-- Original: Hexagonal Mortar Launcher -->
+	<!-- Capitalization, shorter name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_TurretHexMortar"]/label</xpath>
@@ -127,7 +131,8 @@
 		</value>
 	</Operation>
 
-	<!-- Packed Concrete -->
+	<!-- Original: Packed Concrete -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_ConcreteCompressed"]/label</xpath>
@@ -136,7 +141,8 @@
 		</value>
 	</Operation>
 
-	<!-- rebar concrete -->
+	<!-- Original: rebar concrete -->
+	<!-- More lifelike rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_ReinforcedConcreteBag"]/label</xpath>
@@ -145,25 +151,18 @@
 		</value>
 	</Operation>
 
-	<!-- Antenna Tower -->
+	<!-- Original: Antenna Tower -->
+	<!-- Capitalization, more purposeful name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_AntennaTower"]/label</xpath>
 		<value>
-			<label>trade beacon tower</label>
+			<label>trade tower</label>
 		</value>
 	</Operation>
 
-	<!-- E.N.I.A.C. -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="FT_ENIAC"]/label</xpath>
-		<value>
-			<label>ENIAC</label>
-		</value>
-	</Operation>
-
-	<!-- hydrant -->
+	<!-- Original: hydrant -->
+	<!-- More specific name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_FirefoamPopper"]/label</xpath>
@@ -172,7 +171,8 @@
 		</value>
 	</Operation>
 
-	<!-- Military Sandbag -->
+	<!-- Original: Military Sandbag -->
+	<!-- Vanilla style rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_Sandbag"]/label</xpath>
@@ -181,7 +181,8 @@
 		</value>
 	</Operation>
 
-	<!-- Military sandbag wall -->
+	<!-- Original: Military sandbag wall -->
+	<!-- Vanilla style rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_WallSandbag"]/label</xpath>
@@ -190,7 +191,8 @@
 		</value>
 	</Operation>
 
-	<!-- Tank Trap -->
+	<!-- Original: Tank Trap -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_TankTrap"]/label</xpath>
@@ -199,7 +201,8 @@
 		</value>
 	</Operation>
 
-	<!-- Concrete Barrier -->
+	<!-- Original: Concrete Barrier -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_Barrier"]/label</xpath>
@@ -208,7 +211,8 @@
 		</value>
 	</Operation>
 
-	<!-- Diagonal Concrete Barrier -->
+	<!-- Original: Diagonal Concrete Barrier -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_BarrierDiagonal"]/label</xpath>
@@ -217,7 +221,8 @@
 		</value>
 	</Operation>
 
-	<!-- Fine Concrete Tile -->
+	<!-- Original: Fine Concrete Tile -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/TerrainDef[defName="FT_FineConcreteTile"]/label</xpath>
@@ -226,88 +231,8 @@
 		</value>
 	</Operation>
 
-	<!-- Operate Machine -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/WorkGiverDef[defName="FT_Operate"]/label</xpath>
-		<value>
-			<label>Operate machine</label>
-		</value>
-	</Operation>
-
-	<!-- Synthesizing Compound -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/WorkGiverDef[defName="FT_Synthesizing"]/label</xpath>
-		<value>
-			<label>Synthesize compound</label>
-		</value>
-	</Operation>
-		
-	<!-- synthesize Dye -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/RecipeDef[defName="FT_Make_Dye"]/label</xpath>
-		<value>
-			<label>Synthesize dye</label>
-		</value>
-	</Operation>
-		
-	<!-- synthesize Neutroamine -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/RecipeDef[defName="FT_Make_Neutroamine"]/label</xpath>
-		<value>
-			<label>Synthesize neutroamine</label>
-		</value>
-	</Operation>
-	
-	<!-- prepare steel for concrete -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/RecipeDef[defName="FT_Make_ReinforcedConcrete"]/label</xpath>
-		<value>
-			<label>Make reinforced concrete</label>
-		</value>
-	</Operation>
-		
-	<!-- make Fiber cement -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/RecipeDef[defName="FT_Make_ConcreteWood"]/label</xpath>
-		<value>
-			<label>Make fiber cement</label>
-		</value>
-	</Operation>
-
-	<!-- make Concrete -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/RecipeDef[defName="FT_Make_ConcreteByBlock"]/label</xpath>
-		<value>
-			<label>Make concrete</label>
-		</value>
-	</Operation>
-
-	<!-- make Concrete from chunk -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/RecipeDef[defName="FT_Make_ConcreteByChunk"]/label</xpath>
-		<value>
-			<label>Make concrete from chunks</label>
-		</value>
-	</Operation>
-
-	<!-- make Concrete from junks -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/RecipeDef[defName="FT_Make_ConcreteByStonyJunks"]/label</xpath>
-		<value>
-			<label>Make concrete from junk</label>
-		</value>
-	</Operation>
-
-	<!-- Chemistry Table -->
+	<!-- Original: Chemistry Table -->
+	<!-- Capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_TableChemistry"]/label</xpath>
@@ -316,7 +241,8 @@
 		</value>
 	</Operation>
 
-	<!-- power pole (street lamp) -->
+	<!-- Original: power pole (street lamp) -->
+	<!-- Immersive rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="FT_PowerPole_Lamp"]/label</xpath>

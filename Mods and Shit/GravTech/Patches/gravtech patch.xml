@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	
-	<!-- The Singularity Reactor -->
+	<!-- Original: The Singularity Reactor -->
+	<!-- Style, capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/label</xpath>
@@ -10,12 +11,13 @@
 		</value>
 	</Operation>
 
-	<!-- advanced gravship computer core -->
+	<!-- Original: advanced gravship computer core -->
+	<!-- Shorter, like vanilla flight computer -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AdvShip_ComputerCore"]/label</xpath>
 		<value>
-			<label>gravship computer core</label>
+			<label>advanced flight computer</label>
 		</value>
 	</Operation>
 	

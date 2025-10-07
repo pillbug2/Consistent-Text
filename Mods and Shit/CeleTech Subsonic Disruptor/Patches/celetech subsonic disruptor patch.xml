@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>          
 
-    <!-- LRSD-30 Subsonic Disruptor -->
+    <!-- Original: LRSD-30 Subsonic Disruptor -->
+	<!-- Vanilla rename, capitalization -->
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs/ThingDef[defName="CMC_FB.Building_FBS"]/label</xpath>

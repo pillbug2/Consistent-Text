@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	
-	<!-- oil press workshop -->
+	<!-- Original: oil press workshop -->
+	<!-- Shorter name with same meaning -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AC_OilPressWorkshop"]/label</xpath>
@@ -10,7 +11,8 @@
 		</value>
 	</Operation>
 
-	<!-- artisan workshop -->
+	<!-- Original: artisan workshop -->
+	<!-- Common term rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AC_ArtisanWorkshop"]/label</xpath>
@@ -19,7 +21,8 @@
 		</value>
 	</Operation>
 
-	<!-- dairy processing station -->
+	<!-- Original: dairy processing station -->
+	<!-- Shorter name referring to an appliance -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AC_DairyProcessingStation"]/label</xpath>
@@ -28,7 +31,8 @@
 		</value>
 	</Operation>
 
-	<!-- artisan fermenter -->
+	<!-- Original: artisan fermenter -->
+	<!-- More lifelike, descriptive name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/label</xpath>
@@ -37,7 +41,8 @@
 		</value>
 	</Operation>
 
-	<!-- artisanal grinder -->
+	<!-- Original: artisanal grinder -->
+	<!-- Common term rename -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AC_ArtisanalGrinder"]/label</xpath>
