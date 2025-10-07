@@ -1,6 +1,6 @@
 <loadFolders>
   <v1.6>
-	    <li>/</li>
+	<li>/</li>
 <!-- MODS -->
     <li IfModActive="mf.ahm">Mods and Shit/Advance Incubator</li>
     <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
@@ -12,9 +12,10 @@
     <li IfModActive="tug.minotaur">Mods and Shit/Roo Minotaurs</li>
     <li IfModActive="jf.royalcarpets">Mods and Shit/Royal Carpets</li>
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
-	  
-	  
-	  
+	<li IfModActive="VanillaExpanded.VGeneticsE">Mods and Shit/VE Genetics</li>
+	<li IfModActive="sarg.alphaanimals">Mods and Shit/Alpha Animals</li>
+	<li IfModActive="vanillaexpanded.vanillaaspirationsexpanded">Mods and Shit/VE Aspirations</li>
+	
 	
 	<li IfModActive="cn.theresnothinghere">Mods and Shit/There's Nothing Here</li>
     <li IfModActive="als.gravtech">Mods and Shit/GravTech</li>

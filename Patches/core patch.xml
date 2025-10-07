@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<!-- Copied from Ferny's Sculpting Bench mod: https://steamcommunity.com/sharedfiles/filedetails/?id=3208616092 -->
-	<!-- art bench -->
+<!-- Copy from Ferny's Sculpting Bench mod: https://steamcommunity.com/sharedfiles/filedetails/?id=3208616092 -->
+
+	<!-- Original: art bench -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="TableSculpting"]/label</xpath>
 		<value>
 			<label>sculpting bench</label>
 		</value>
 	</Operation>
+	
+<!-- Rename vanilla ship items to be more specific in a modded game. -->
 
-	<!-- ship structural beam -->
+	<!-- Original: ship structural beam -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Ship_Beam"]/label</xpath>
 		<value>
@@ -18,7 +21,7 @@
 		</value>
 	</Operation>
 
-	<!-- ship reactor -->
+	<!-- Original: ship reactor -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Ship_Reactor"]/label</xpath>
 		<value>
@@ -26,7 +29,7 @@
 		</value>
 	</Operation>
 
-	<!-- ship engine -->
+	<!-- Original: ship engine -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Ship_Engine"]/label</xpath>
 		<value>
@@ -34,7 +37,7 @@
 		</value>
 	</Operation>
 
-	<!-- ship computer core -->
+	<!-- Original: ship computer core -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Ship_ComputerCore"]/label</xpath>
 		<value>
@@ -42,7 +45,7 @@
 		</value>
 	</Operation>
 
-	<!-- ship cryptosleep casket -->
+	<!-- Original: ship cryptosleep casket -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Ship_CryptosleepCasket"]/label</xpath>
 		<value>
@@ -50,7 +53,7 @@
 		</value>
 	</Operation>
 
-	<!-- sensor cluster -->
+	<!-- Original: sensor cluster -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Ship_SensorCluster"]/label</xpath>
 		<value>
