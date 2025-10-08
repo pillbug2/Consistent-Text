@@ -250,7 +250,7 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Adv_Learning_Desk"]/description</xpath>
 		<value>
-			<description>A desk with a computer to improve note taking and learing effectiveness.</description>
+			<description>A desk with a computer to improve note taking and learning effectiveness.</description>
 		</value>
 	</Operation>
 

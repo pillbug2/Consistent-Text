@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Patch>          
+<Patch>
 
-    <!-- Original: Herona Wardrobe -->
+	<!-- Fix error that RRBigTV description has leading whitespace. -->
+	<!-- TODO tell dev to pls fix ;-; -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="RRBigTV"]/description</xpath>
+		<value>
+			<description>TV with a large screen. Place it on a stand.</description>
+		</value>
+	</Operation>
+
+	<!-- Original: Herona Wardrobe -->
 	<!-- Capitalization -->
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
