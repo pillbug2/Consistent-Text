@@ -6,7 +6,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="JWL_AtmoCollector"]/label</xpath>
 		<value>
-			<label>atmospheric water catcher</label>
+			<label>atmospheric water extractor</label>
 		</value>
 	</Operation>
 	

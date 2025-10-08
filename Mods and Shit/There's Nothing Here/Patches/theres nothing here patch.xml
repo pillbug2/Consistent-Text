@@ -10,5 +10,18 @@
             <label>concealed safe</label>
         </value>
     </Operation>
+
+	<!--
+	Original:
+	A heavy, shielded safe installed flush with the floor. Its contents are electronically masked, hiding them from standard wealth calculations.
+	-->
+	<!-- More purposeful description -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TNH_ConcealedSafe"]/description</xpath>
+		<value>
+			<description>A heavy, shielded safe installed flush with the floor. Its contents are electronically masked, hiding them from colony wealth calculations.</description>
+	</value>
+	</Operation>
 	
 </Patch>

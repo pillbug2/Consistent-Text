@@ -11,4 +11,17 @@
         </value>
     </Operation>
 
+	<!--
+	Original:
+	A portal with precise folding leaps through the Void node, which can teleport items/creatures/buildings to another portal or signal location at any distance. This device consumes a certain amount of Bioferrite each time it is used.
+	-->
+	<!-- Rewritten for readability -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AP_Portal"]/description</xpath>
+		<value>
+			<description>A portal demonstrating precision space folding leaps into the Void, allowing for the teleportation of items, creatures, or buildings to another portal or signal location at any distance. This device consumes a certain amount of Bioferrite each time it is used.</description>
+		</value>
+	</Operation>
+
 </Patch>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+	<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
 	<!-- Original: cold fusion generator cabin -->
-	<!-- Rename in line with description and vanilla, shorter name -->
+	<!-- Shorter name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="ShipWallSmallColdNnclearGeneratorCabin"]/label</xpath>
 		<value>
-			<label>ancillary reactor cabin</label>
+			<label>fusion generator cabin</label>
 		</value>
 	</Operation>
 

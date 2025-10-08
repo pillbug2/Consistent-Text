@@ -2,7 +2,7 @@
 <Patch>
 	
 	<!-- Original: electric haute section -->
-	<!-- Station is more evocative and independent -->
+	<!-- Station is a less awkward term here and is in line with the description. -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="VCE_ElectricHauteSection"]/label</xpath>

@@ -22,7 +22,7 @@
 	</Operation>
 
 	<!-- Psychic Suppression Field Projector -->
-	<!-- Capitalization, shorter -->
+	<!-- Capitalization, shorter name -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="PTPsychicSuppressionFieldProjector"]/label</xpath>

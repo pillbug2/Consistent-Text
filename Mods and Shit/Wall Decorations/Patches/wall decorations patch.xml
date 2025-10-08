@@ -171,4 +171,17 @@
 		</value>
 	</Operation>
 
+	<!--
+	Original:
+	Fits any workshop. Starts off as the 1x1 version. Rotate it to explore the longer connected versions.
+	-->
+	<!-- Removed 4th wall dev comment -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="ucp_corkboard"]/description</xpath>
+		<value>
+			<description>Fits any workshop. Rotate it to explore the longer connected versions.</description>
+		</value>
+	</Operation>
+
 </Patch>

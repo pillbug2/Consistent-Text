@@ -12,12 +12,25 @@
 	</Operation>
 
 	<!-- Original: advanced gravship computer core -->
-	<!-- Shorter, like vanilla flight computer -->
+	<!-- Shorter, networked name nods to mechanitor buffs -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AdvShip_ComputerCore"]/label</xpath>
 		<value>
-			<label>advanced flight computer</label>
+			<label>networked flight computer</label>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Cerebrex Gravship pilot computer core. Improves flight quality of gravship by 30%.\n\nСan be tuned to a specific mechanitor to improve his ability.\n Bandwidth +20 \n Control groups +3 \n Work speed mech +30% \n Forming speed +100% \n Cerebrex node ability
+	-->
+	<!-- Use rename, capitalization -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="AdvShip_ComputerCore"]/description</xpath>
+		<value>
+			<description>Cerebrex networked flight computer. Improves flight quality of gravship by 30%.\n\nСan be tuned to a specific mechanitor to improve his ability.\n Bandwidth +20 \n Control groups +3 \n Work speed mech +30% \n Forming speed +100% \n Cerebrex node ability</description>
 		</value>
 	</Operation>
 	

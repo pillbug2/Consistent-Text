@@ -72,22 +72,22 @@
 	</Operation>
 
 	<!-- Original: Herb Box -->
-	<!-- Style edit, functional name, capitalization -->
+	<!--  capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYHerbBox"]/label</xpath>
 		<value>
-			<label>planting box</label>
+			<label>herb box</label>
 		</value>
 	</Operation>
 
 	<!-- Original: Herb Box (Limed) -->
-	<!-- Style edit, functional name, capitalization -->
+	<!-- Style edit, capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYHerbBoxLime"]/label</xpath>
 		<value>
-			<label>limed planting box</label>
+			<label>limed herb box</label>
 		</value>
 	</Operation>
 
@@ -122,12 +122,12 @@
 	</Operation>
 
 	<!-- Original: Water Grower -->
-	<!-- Morea readable name -->
+	<!-- Less awkward name, capitalization -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="AYWaterGrower"]/label</xpath>
 		<value>
-			<label>water planting box</label>
+			<label>wet growing box</label>
 		</value>
 	</Operation>
 	

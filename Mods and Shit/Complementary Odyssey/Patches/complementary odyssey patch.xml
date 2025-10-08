@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
-	<!-- Original: roll out solar array -->
-	<!-- Style edit -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="CO_SolarArrayGenerator"]/label</xpath>
-		<value>
-			<label>compact solar array</label>
-		</value>
-	</Operation>
-
-	<!-- Original: roll out solar panel -->
-	<!-- Style edit -->
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="CO_SolarArrayPanel"]/label</xpath>
-		<value>
-			<label>compact solar panel</label>
-		</value>
-	</Operation>
-
+	
 	<!-- Original: vac double door -->
 	<!-- Style edit -->
 	<Operation Class="PatchOperationReplace">

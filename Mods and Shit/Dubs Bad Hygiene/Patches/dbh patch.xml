@@ -161,4 +161,43 @@
 		</value>
 	</Operation>
 
+	<!--
+	Original:
+	Plumbing for connecting plumbed things (hidden).
+	-->
+	<!-- Edit for clarity -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sewagePipeHidden"]/description</xpath>
+		<value>
+			<description>Hidden plumbing for connecting plumbed things..</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Pipe for connecting air-conditioning units.
+	-->
+	<!-- Use rename -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="airPipe"]/description</xpath>
+		<value>
+			<description>Duct for connecting air-conditioning units.</description>
+		</value>
+	</Operation>
+
+	<!--
+	Original:
+	Pipe for connecting air-conditioning units. (hidden)
+	-->
+	<!-- Use rename. Edit for clarity. -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="airPipeHidden"]/description</xpath>
+		<value>
+			<description>Hidden duct for connecting air-conditioning units.</description>
+		</value>
+	</Operation>
+
 </Patch>
