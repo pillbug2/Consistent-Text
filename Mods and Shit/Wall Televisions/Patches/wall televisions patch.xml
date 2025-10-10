@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+wall tube television
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="XER_WallTubeTelevision"]/label</xpath>
+                    <value>
+                        <label>wall-mounted tube television</label>
+                    </value>
+                </Operation>
+
+</Patch>

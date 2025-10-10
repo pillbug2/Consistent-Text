@@ -11,5 +11,7 @@
     <li IfModActive="tug.minotaur">Mods and Shit/Roo Minotaurs</li>
     <li IfModActive="jf.royalcarpets">Mods and Shit/Royal Carpets</li>
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
+    <li IfModActive="xercaine.walltelevisions">Mods and Shit/Wall Televisions</li>
+    <li IfModActive="vanillaexpanded.vfefarming">Mods and Shit/VFE Farming</li>
   </v1.6>
 </loadFolders>
