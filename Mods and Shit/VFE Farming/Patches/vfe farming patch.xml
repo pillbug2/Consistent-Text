@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+
+<!-- ORIGINAL
+tilable artifical ecosystem
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFE_Ecosystem_Tilable"]/label</xpath>
+                    <value>
+                        <label>modular artificial ecosystem</label>
+                    </value>
+                </Operation>
+
+
+<!-- ORIGINAL
+tilable hydroponics basin
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFE_Hydroponics_Tilable"]/label</xpath>
+                    <value>
+                        <label>modular hydroponics basin</label>
+                    </value>
+                </Operation>
+
+<!-- ORIGINAL
+tilable planter box
+ -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFE_PlanterBox_Tilable"]/label</xpath>
+                    <value>
+                        <label>modular planter box</label>
+                    </value>
+                </Operation>
+
+
+
+</Patch>
